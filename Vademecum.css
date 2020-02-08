@@ -1,0 +1,343 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+}
+
+
+#linea{
+	height: 5px; 
+	width: 20px; 
+	background-color: black;
+}
+
+#NavbarPrincipal{
+	margin-bottom: 0px; 
+	border-radius: 0px; 
+	padding: 25px;
+	background-color: black;
+	padding-left: 25%;
+  	padding-left-right: 25%;
+}
+
+#NavbarPrincipal .navbar-nav li.active > a {
+	background-color: grey;
+	color: white;
+}
+
+#NavbarPrincipal li a{
+	color: white;
+}
+
+.row.content {height: auto}
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+#Logo{
+  width: 50px;
+  height: 50px;
+  margin-top: -15px;
+}
+
+#container{
+	min-height: 100%;
+	background-color: grey;
+}
+
+#main{
+	padding-bottom: 100px;
+    overflow-x: hidden;
+}
+
+#ProductoYBuscador{
+	background-color: orange;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#ProductoYBuscador h3{
+	color: black;
+}
+
+#ProductoYBuscador .col-md-8{
+	margin-left: -20px; 
+	margin-top: 20px; 
+	margin-bottom: 20px;
+}
+
+#ProductoYBuscador .col-md-8 span{
+	background-color: #FF8000; 
+	font-size: 15px;
+}
+
+hr{
+	width: 20px;
+	border: 1px solid black;
+}
+
+
+#Buscador{
+	color: white;
+	font-size: 30px; 
+	text-align: left;
+	padding: 20px;
+}
+
+
+#Buscador input{
+	border-radius: 0;
+	margin-top: 10px;
+}
+
+#Buscador img{
+	width: 35px; height: 35px; background-color: grey; padding: 10px; 
+	margin-top: 10px;
+}
+
+#Buscador button{
+	border-radius: 0;
+	border-color: black;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+}
+
+#ProductoTitle{
+	font-size: 30px; text-align: left; padding: 10px; padding-left: 40px; color: black; width: 70%; margin-left: -35px; margin-top: -50px;
+}
+
+#Producto {
+	background-color: white;
+	padding-top: 10px;
+	padding-right: 12%;
+	padding-left: 12%;
+	padding-bottom: 50px;
+}
+
+#Producto h3{
+	color: black;
+}
+
+#ImagenProducto{
+	width: 100%;
+	height: 600px;
+	margin-bottom: 50px;
+}
+
+#Seleccion{
+	margin-top: 20px;
+}
+
+#Seleccion .col-md-3{
+	border-style: solid; border-color: orange; padding-top: 10px; text-align: center;
+}
+
+#Seleccion .col-md-4{
+	border-style: solid; border-color: orange; padding-top: 10px; text-align: center;
+}
+
+#Seleccion2{
+	text-align: center; margin-top: 10px;
+}
+
+#Seleccion2 .col-md-12{
+	border-style: solid; border-color: orange; padding-top: 10px; text-align: center;
+}
+
+#Seleccion2 .col-md-2{
+	border-style: solid; border-color: orange; padding-top: 10px; text-align: center;
+}
+
+#Opciones{
+	text-align: center; margin-top: 10px;
+}
+
+#Opciones .col-md-2{
+	padding-top: 10px; text-align: center;
+}
+
+#Opciones .col-md-1{
+	padding-top: 10px; text-align: center;
+}
+
+
+/*PRODUCTOS*/
+
+.container {
+  overflow: hidden;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.filterDiv {
+  float: left;
+  background-color: orange;
+  color: #ffffff;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  padding: 50px;
+  display: none; /* Hidden by default */
+  margin-top: 20px;
+
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  margin-top: 20px;
+  background-color: white;
+}
+
+.btn p{
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+  background-color: #666;
+  color: white;
+
+}
+
+#footer{
+	padding-top: 20px; 
+	background-color: #151515;
+	position: relative;
+	height: auto;
+	margin-top: -100px;
+	clear: both; 
+	padding-right: 25%;
+	padding-left: 25%;
+}
+
+#LogoFooter{
+	width: 100px;
+	height: 100px;
+	margin-top: -10px;
+}
+
+/* media */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height:auto;} 
+
+#NavbarPrincipal{
+	margin-bottom: 0px; 
+	border-radius: 0px; 
+	padding: 0;
+	background-color: black;
+}
+
+  #main{
+  	overflow: hidden;
+	padding-bottom: 100px;
+	margin-left: 0;
+  	margin-right: 0;
+  }
+
+  #BuscadorTitle{
+	text-align: center;
+  	padding-right: 50%;
+  }
+
+
+
+	#EmpresaTitle{
+		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	}
+
+	#ProductoTitle{
+		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	}
+
+  #ImagenProducto{
+  	margin-top: 10px;
+	width: 100%;
+	height: auto;
+  }
+
+  .btn p{
+	font-size: 15px;
+	padding-top: 5px;
+  }
+
+
+  #footer{
+	padding-top: 20px; 
+	background-color: #151515;
+	position: relative;
+	height: auto;
+	margin-top: -100px;
+	clear: both; 
+	padding-right: 0;
+	padding-left: 0;
+  }
+}
+
+@media (max-width: 1199.98px) {
+
+	#NavbarPrincipal{
+		margin-bottom: 0px; border-radius: 0px; 
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	  #main{
+  	overflow: hidden;
+	padding-bottom: 100px;
+	margin-left: 0;
+  	margin-right: 0;
+  }
+
+	#ImagenProducto{
+  		margin-top: 10px;
+		width: 100%;
+		height: auto;
+  	}
+
+  	#EmpresaTitle{
+		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	}
+
+	#ProductoTitle{
+		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	}
+
+  	#Cuadro1 img{
+		width: 100%; 
+		height: 350px;
+	}
+
+
+	#footer{
+	padding-top: 20px; 
+	background-color: #151515;
+	position: relative;
+	height: auto;
+	margin-top: -100px;
+	clear: both; 
+	padding-right: 0;
+	padding-left: 0;
+  }
+}
