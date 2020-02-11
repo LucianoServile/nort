@@ -88,35 +88,6 @@
                     <img id="ImagenProducto" src="images/imagenes-vademecum-02.jpg" class="img-fluid" alt="Vaca">
                 </div>
 
-      
-                <!--
-                <div class="row" id="Seleccion">
-                    <div class="col-md-3">
-                        <p>VACUNAS</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-3" style="background-color: orange">
-                        <p>ANTIBIÓTICOS</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-4">
-                        <p>ANTIPARASITARIOS INT. Y EXT.</p>
-                    </div>
-                </div>
-
-                <div class="row" id="Seleccion2">
-                    <div class="col-md-12">
-                        <p>ESPECÍFICOS - VITAMÍNICOS - MINERALIZANTES - CALCIFICANTES</p>
-                    </div>
-                </div>
-
-                <div class="row" id="Seleccion2">
-                    <div class="col-md-2">
-                        <p>ANABÓLICOS</p>
-                    </div>
-                </div>
-                -->
-
                 <!-- Control buttons -->
                 <div id="myBtnContainer">
                   <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
@@ -152,21 +123,37 @@
                     <div class="filterDiv antibioticos">
                         <div id="myBtnContainer">
                           <div class="row">
-                              <div class="col-md-4">
+                              <div class="col-md-6">
                               <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
                               </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('equinos') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
                               </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
-                              </div>
-                          </div>
-                         
+                          </div> 
                         </div>
                     </div>
 
+
+                    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        ///////////////////////////////////////////////GRANDES ANIMALES/////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
                     <!--ANTIBIOTICOS - GRANDES ANIMALES -->
+
+                    <div class="filterDiv grandes-animales-antibio">
+                        <div id="myBtnContainer">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              </div>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div> 
+                        </div>
+                    </div>
 
                     <div class="filterDiv grandes-animales-antibio">
                             <div id="row">
@@ -310,14 +297,11 @@
                         <div id="myBtnContainer">
                           <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
                           <div class="row">
-                              <div class="col-md-4">
+                              <div class="col-md-6">
                               <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
                               </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('equinos') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
-                              </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
                               </div>
                           </div>
                          
@@ -325,6 +309,19 @@
                     </div>
 
                     <!-- ANTIPARASITARIOS -->
+
+                    <div class="filterDiv grandes-animales-antiparasi">
+                        <div id="myBtnContainer">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              </div>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div> 
+                        </div>
+                    </div>
 
                     <div class="filterDiv grandes-animales-antiparasi">    
                         
@@ -542,22 +539,25 @@
                     <!-- ANABOLICOS -->  
 
                     <div class="filterDiv anabolicos">
-
                         <div class="row">
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('grandes-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
-                              </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('equinos') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
-                              </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <div class="col-md-12">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
                               </div>
                           </div>
                     </div>
 
+                    <div class="filterDiv pequenos-animales-anabol">
+                        <div id="myBtnContainer">
+                          <div class="row">
+                              <div class="col-md-12">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div> 
+                        </div>
+                    </div>
 
-                    <div class="filterDiv grandes-animales-anabol">
+
+                    <div class="filterDiv pequenos-animales-anabol">
 
                         <div id="row">
                             <div class="col-md-4">
@@ -583,7 +583,7 @@
                         <b>Dosis:</b> Caninos según el peso de 0,5 a 2 ml y Felinos según peso de 0,5 a 1 ml. Puede repetirse cada 15 ó 21 días, salvo mejor criterio del Médico Veterinario. Aplicación: Intramuscular ó subcutánea.
                     </div>
 
-                    <div class="filterDiv grandes-animales-anabol">
+                    <div class="filterDiv pequenos-animales-anabol">
                         <div id="row">
                             <div class="col-md-4">
                                 <h2 style="padding-top: 40px;">19 17 A</h2>
@@ -611,7 +611,7 @@
                         <b>Dosis:</b> Caninos y felinos 0,50 a 2 ml según tamaño. Puede repetirse cada 15 a 21 días o según criterio del Médico Veterinario. Aplicación: Intramuscular profunda.
                       </div>
 
-                      <div class="filterDiv grandes-animales-anabol">
+                      <div class="filterDiv pequenos-animales-anabol">
                         <h2>MASPES</h2>
                         <hr style="width: 100%">
                         ANABÓLICO NO HORMONAL<br><br>
@@ -638,42 +638,45 @@
                         <b>Dosis:</b> 1 comprimido media hora antes de cada comida.
                       </div>
 
-                      <div class="filterDiv vacunas">
-                          <div class="row">
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('grandes-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
-                              </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('equinos') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
-                              </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
-                              </div>
-                          </div>
-                      </div>
+                      <!-- VACUNAS -->
 
-                      <div class="filterDiv animals">Cow</div>
-                      <div class="filterDiv animals">Cow</div>
-                      <div class="filterDiv animals">Cow</div>
-                      <div class="filterDiv animals">Cow</div>
+                      <div class="filterDiv vacunas">Cow</div>
+                      <div class="filterDiv vacunas">Cow</div>
+                      <div class="filterDiv vacunas">Cow</div>
+                      <div class="filterDiv vacunas">Cow</div>
 
                       <!-- ESPECIFICOS -->
 
                       <div class="filterDiv especificos">
                           <div class="row">
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('grandes-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
-                              </div>
-                              <div class="col-md-4">
+                              <div class="col-md-6">
                               <button class="btn" onclick="filterSelection('equinos-especifi') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
                               </div>
-                              <div class="col-md-4">
-                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
                               </div>
                           </div>
                       </div>
 
+                      <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        ///////////////////////////////////////////////EQUINOS/////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+
                       <!-- ESPECIFICOS - EQUINOS -->
+                       <div class="filterDiv equinos-especifi">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('equinos-especifi') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
+                              </div>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div>
+                      </div>
 
                       <div class="filterDiv equinos-especifi">
                         <h2>ATP - 2</h2>
@@ -921,7 +924,7 @@
                       </div>
 
                       <div class="filterDiv equinos-especifi">
-                         <div id="row">
+                        <div id="row">
                             <div class="col-md-4">
                                 <h2 style="padding-top: 40px;">NORDIURETIC</h2>
                             </div>
@@ -950,12 +953,1386 @@
                         Equinos 5 ml/día Caninos 2 ml/día; Felinos 0,5 ml/día. Vía IM profunda exclusivamente.<br>
                         Intervalo entre dosis: Equinos, Caninos y Felinos: 1 aplicación diaria durante 72 hs. O según el caso a criterio del Médico veterinario.<br>
                       </div>
-                      <div class="filterDiv equinos-especifi">Cow</div>
-                      <div class="filterDiv equinos-especifi">Cow</div>
-                      <div class="filterDiv equinos-especifi">Cow</div>
-                      <div class="filterDiv equinos-especifi">Cow</div>
-                      <div class="filterDiv equinos-especifi">Cow</div>
-                      <div class="filterDiv equinos-especifi">Cow</div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">OSTEONORT- HAY FOTO</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/OSTEONORT-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Regenerador Osteoarticular Antiartrósico Inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        FORMULA CUALICUANTITATIVA:   <br>
+                        Condroitín sulfato ............ 12.00 g   <br>
+                        Glucosamida ............... 20.00 g   <br>
+                        Excipientes c.s.p. ............... 100 ml<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla x 50 ml y caja con 6 frascos amp. x 10 ml<br><br>
+
+                        <b>Indicaciones:</b><br>
+                        Regenerador osteoarticular, antiartrósico, promotor de la condrogénesis. Uso en Equinos Deportivos, Caninos y Felinos.<br><br>
+
+                        <b>Dosis:</b><br>
+                        Equinos: 5 ml / día.<br>
+                        Caninos: 2 ml / día.<br>
+                        Felinos: 0,5 ml / día.<br>
+                        Aplicación: Vía intramuscular profunda<br>
+                        exclusivamente
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>IODO ORGÁNICO COMPUESTO</h2>
+                        <hr style="width: 100%"><br>
+
+                        <b>Fórmula:</b><br>
+                        IODO ORGANICO-CLORURO DE COBALTO<br>
+                        Iodo organico (endoidoina) 10grs.<br>
+                        Cloruro de cobalto 0.5grs.<br>
+                        Agua tridestilada<br>
+                        Apirogena esteril c.s.p. 100 ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 100 ml.<br><br>
+
+                        <b>Indicaciones:</b> RESOLUTIVO ANTINFLAMATORIO. Como antiflogistico en todos los procesos crónicos. Desintoxicante. En procesos pulmonares.<br><br>
+
+                        <b>Dosis:</b> Equinos: 20ml. Diarios, Bovinos 20 a 25 ml. Diarios, o según prescripción del Médico Veterinario.<br>
+                        VIA ENDOVENOSA EXCLUSIVAMENTE.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">URONORT</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/NORTDIURETIC-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        HEXAMETILENTETRAMINA  <br>
+                        Hexametilentetramina 20grs.<br>  
+                        Glucosa 10grs.  <br>
+                        Agua tridestilada   <br>
+                        Apirogena esteril c.s.p. 100 ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 100 ml.<br><br>
+
+                        <b>Indicaciones:</b> DESINTOXICANTE. Antiséptico urinario y de las vias biliares. Diurético. Antipéritico y sedativo de las vias genitourinarias. Luego de los trabajos como desintoxicante.<br><br>
+
+                        <b>Dosis:</b><br>
+                        Equinos: 20 ml. Diarios o según prescripción del Médico Veterinario. VIA ENDOVENOSA EXCLUSIVAMENTE
+
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;"> NORTOX</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/NORTOX-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        INSECTICIDA REPELENTE DE INSECTOS<br><br>
+
+                        <b>Presentación:</b> FRASCO 100 ml
+
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>NORFILIN LIOFILIZADO</h2>
+                        <hr style="width: 100%">
+                        <br>
+                        <b>Fórmula Cualicuantitativa:</b><br>
+                        Frasco Nº 1 Liofilizado<br>
+                        Aminofilina   0,75 g<br>
+                        Frasco Nº 2 Solvente<br>
+                        Agentes de formulación y agua tridestilada apirógena estéril c.s.p.    100 ml<br><br>
+
+                        <b>Presentación:</b> Caja contenedora 1 frasco Nº 1 y 1 frasco Nº 2<br><br>
+
+                        <b>Indicaciones:</b> Modulador cardiorespiratorio, en las exigencias físicas, como mejorarador de la performance atlética muscular en anaerobiosis, desfatigante, energizante muscular, protector del metabolismo de las fibras estriadas. En edema pulmonar severo, aún sin broncoespasmo, es un buen fármaco para adicionar a la terapia básica.<br><br>
+
+                        <b>Dosis:</b><br>
+                        Equinos deportivos: 10 ml/ día equivalente a 0,02 ml por Kpv. Duración tratamiento: a criterio del Médico Veterinario, aplicar cada vez que sea necesario según el caso. VIA ENDOVENOSA EXCLUSIVAMENTE.
+
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>FRALIVER</h2>
+                        <hr style="width: 100%">
+                        <br>
+                        <b>Fórmula Cualicuantitativa:</b> <br>
+                        Fracción Antióxida de hígado, tipo Forbes  1,00 g<br>
+                        Excipientes c.s.p   100 m<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla x 100 ml<br><br>
+
+                        <b>Indicaciones:</b> Autointoxicaciones. Heterointoxicaciones. Enfermedades hepáticas. Toxemia de las enfermedades infecciosas, acidosis, regenerador hepático. USO EXCLUSIVO EQUINOS DEPORTIVOS<br><br>
+
+                        <b>Dosis:</b> la dosis a suministrar es de 20 a 40 ml diarios por vía endovenosa, durante 5 días o según prescripción del Médico Veterinario. VIA ENDOVENOSA EXCLUSIVAMENTE
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>NEORSEDAN</h2>
+                        <hr style="width: 100%">
+                        Tranquilizante Ansiolítico oral<br><br>
+
+                        <b>Fórmula Cualicuantitativa:</b><br>
+                        Cada comprimido contiene:<br>
+                        Diezepan  100 mg<br>
+                        Excipientes c.s.p    1000 mg<br><br>
+
+                        <b>Presentación:</b> Envase conteniendo 20 comprimidos.<br><br>
+
+                        <b>Indicaciones:</b> En estados de excitación nerviosa, cualquiera sea su etiología, en ansiedad y en distonías neurovegetativas, y trastornos de conducta. Para tranquilizar al animal antes del transporte o antes de los servicios. Los efectos de las benzodiacepinas resultan casi todos de las acciones sobre en SNC. Los efectos mas prominentes son sedación, hipnosis, disminución de la ansiedad, relajación muscular, amnesia anterógrada y actividad anticonvulsivamente.<br><br>
+
+                        Dosis: Equinos y bovinos: 1 a 2 comprimidos diarios. Ovinos y Porcinos ¼ o ½ comprimido diarios. Caninos y felinos: 1/8 o ¼ comprimido diarios. Oral
+
+                      </div>
+
+                      <!-- MINERAL -->
+                      <div class="filterDiv equinos-especifi">
+                        <h2>CUPRINORT L.A</h2>
+                        <hr style="width: 100%">
+                        Cobre en Alta concentración y efecto prolongado – Inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Etilenedinitrilo tetraacetato de calcio y cobre     13,04 g<br>
+                        Excipientes y emulsionantes c.s.p      100,00 ml<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla x 100 ml y 250 ml<br><br>
+
+                        <b>Indicaciones:</b> Tratamientos y prevención de hipocuprósis. Curativo y Preventivo (en zonas hipocuprogénicas)<br><br>
+
+                        <b>Dosis:</b> Grandes animales 5 ml. Medianos animales 1 a 2 ml. Repetir cada 3 a 6 meses, salvo indicación del médico Veterinario. Administración subcutánea.
+
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>VETERPHOS 89</h2>
+                        <hr style="width: 100%">
+                        Mineralizante reconstrituyente Inyectable<br><br>
+
+                        <b>Formula:</b><br>
+                        Cloruro de Calcio    500 mg<br>
+                        Sulfato de Magnesio    750 mg<br>
+                        Sulfato de Cobre  250 mg<br>
+                        Sulfato de Cobalto    50 mg<br>
+                        Sulfato de Hierro   500 mg<br>
+                        Fosfato de Sodio   650 mg<br>
+                        Nipagin   6 mg<br>
+                        Nipasol   2 mg<br>
+                        Acido fénico    500 mg<br>
+                        Excipientes c.s.p   100 ml <br><br>
+
+                        <b>Presentación:</b> Frasco x250 ml y 500 ml.<br><br>
+
+                        <b>Administración:</b> Para el control de las deficiencias minerales, ya sea por carencia de alimentación o mala asimilación producida por procesos infecciosos o parasitarios. Profilaxix y terapia de los estados carenciales. Reconstituyentes. Aumenta la producción láctea. Para las especies Bovina, Ovina y porcinas.<br><br>
+
+                        <b>Dosis:</b> Bovinos adultos 10 ml. Terneros y Ovinos 50 ml. Corderos 3 ml. Porcinos 3 a 4 ml. Lechones 1 a 2 ml. La dosis puede repetirse con intervalos de 15 días, salvo mejor criterio del Médico Veterinario. Aplicación por vía inyectable subcutánea.
+
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;"> CALCINORT</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/CALCINORT-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+                        <b>Fórmula:</b><br>
+                        AMINOACIDOS-MINERALES-VITAMINA D   <br>
+                        Cloruro de calcio 4.00grs.  <br> 
+                        Cloruro de potasio 1.50grs.   <br>
+                        Cloruro de sodio 2.68grs.   <br>
+                        Cloruro de magnesio 1.50grs.   <br>
+                        Cloruro de manganeso 2.00grs.   <br>
+                        Cloruro de zinc 2.00grs.   <br>
+                        Cloruro de cobalto 0.36grs.   <br>
+                        Citrato de hierro amoniacal verde 2.77grs.  <br> 
+                        Glicerofosfato de sodio (al 50%) 1.38grs. <br>  
+                        Sulfato de cobre 0.012grs.   <br>
+                        Gluconato de calcio 6.00grs.   <br>
+                        Vitamina D (calciferol) 0.03grs.  <br> 
+                        Oleato de sodio 2.25grs.   <br>
+                        Fenilalanina 0.30grs.   <br>
+                        Glicocola 0.30grs.   <br>
+                        Histidina L 0.09grs.   <br>
+                        Isoleucina 0.09grs.   <br>
+                        Lisina 0.30grs.   <br>
+                        Metionina D.L 0.60grs. <br>  
+                        Treonina D.L 0.12grs.   <br>
+                        Triptofano D.L 0.06grs.  <br> 
+                        Valina D.L 0.09grs.   <br>
+                        Agua tridestilada   <br>
+                        Apirogena esteril c.s.p. 1000ml.<br><br>
+
+                        <b>Presentación:</b> Envases de 250 ml.<br><br>
+
+                        <b>Indicaciones:</b><br>
+                        CALCIFICANTE NORMOREGULADOR<br>
+                        Raquitismo, osteomalacia, hipocalcemia, tetanias de la lactación. Prevención y tratamiento de estados carenciales y precarenciales. Tiene acción antianemica y repone rapidamente a animales con convalecientes o parasitados. Previene la hipomagnesemia y como fuente complementaria de minerales en el crecimiento, lactación y engorde.<br><br>
+
+                        <b>Dosis:</b> Bovinos: 5 a 20ml. Ovinos: 2 a 7ml. Cerdos: 1 a 10ml. Equinos: 5 a 10ml.
+                        </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;"> GLUCONATO DE CALCIO</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/GLUCONATO DE CALCIO-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        ACIDO BORICO-CAFEINA-MINERALES  <br>                 
+                        Gluconato de calcio 20grs.  <br>
+                        Acido borico 3.7grs.  <br>
+                        Cloruro de magnesio 15grs.  <br>
+                        Cloruro de cobalto 0.10grs.  <br>
+                        Glicerofosfato de sodio(al 50%) 0.4grs.  <br>
+                        Cafeína 1grs. <br>
+                        Benzoato de sodio 2grs. <br>
+                        Glucosa pura anhidra 10grs. <br>
+                        Agua tridestilada  <br>
+                        Apirogena esteril c.s.p. 100ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 250 ml.<br><br>
+
+                        <b>Indicaciones:</b> CALCIFICANTE En bovinos prevención y tratamiento de hipocalcemia e hipomagnesemia, Eclampsia post-partum. En equinos, porcinos y ovinos como calcificante. En el equino deportivo y sobre todo en animales jóvenes previene las lesiones óseas favoreciendo un mejor desarrollo y aumentando la resistencia al trabajo.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos: 10 a 30ml. Cada 100kgs. de peso Ovinos y cerdos: 5 a 10ml. Cada 100kgs. de peso
+                        VIA INDOVENOSA, SUBCUTANEO O INTRAMUSCULAR
+
+                      </div>
+                      
+                      <!-- VITAMINICOS -->
+                      <div class="filterDiv equinos-especifi">
+                        <h2>VITAMINICOS B con B</h2>
+                        <hr style="width: 100%">
+                        Liofilizado inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Frasco Nº1 – Polvo Liofilizado<br>
+                        Vitamina B! ( Clorhid. De Tiamina)   2500 mg<br>
+                        Vitamina B2 ( Riboflavina)   200 mg<br>
+                        Vitamina B6 ( Clorhidrato de Piridoxina)   400mg<br>
+                        Vitamina B12 ( Cianocobalamina)    1500 mcg<br>
+                        Vitamina Pp (Amina del Acido Nicotínico)   4000 mg<br>
+                        Colina Cloruro    500 mg<br><br>
+
+                        Frasco Nº 2 – Solvente<br>
+                        Agentes de formulación y agua tridestilada apirógena estéril c.s.p.   50 ml<br><br>
+
+                        <b>Presentación:</b> Caja con 1 frasco Nº 1 y 1 con frasco Nº 2<br><br>
+
+                        <b>Indicaciones:</b> Stress post-operatorio, déficit vitamínico, enfermedades hepáticas, neuritis y en animales sometidos a esfuerzos intensos. Anabólicos no hormonal en casos de anorexia. <br><br>
+
+                        <b>Dosis:</b> Disolver el contenido del fraco N1 con el contenido del fgrasco Nº2 y agitar fuertemente. Equinos y Bovinos: Aplicar 10 ml diarios o según indicaciones del médico Veterinario. VIA ENDOVENOSA EXCLUSIVAMENTE.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>VITAMINICOS 12-15</h2>
+                        <hr style="width: 100%">
+                        Vitamina B12 – B15 -  Inyectable<br><br>
+
+                        <b>Fórmula:</b> <br>
+                        Vitamina B12    10.0000 mcg<br>
+                        Vitamina B15    0,100 g<br>
+                        Excipientes C.s.p    10 ml<br><br>
+
+                        <b>Presentación:</b> Frasco amp. Conteniendo 10 ml<br><br>
+
+                        <b>Indicaciones:</b> La combinación de estos dos principios activos nos brinda una arma poderosa en el tratamiento y preparación del S.P.C, para las distintas pruebas hípicas. 
+                        La vitamina B12 de influencia eutrófica sobre el sistema nervioso, actúa como catalizador en procesos complejos que conducen a la hematopoyesis y de excelentes resultados en los transtornos del crecimiento y en afecciones óseas, así como también en enterocolitis y transtornos digestivos.
+                        La Vitamina B15 es una enzima respiratoria y circulatoria. Aumenta la producción de creatinina del músculo cardíaco y favorece la entrada de oxígeno al corazón por activación de la circulación al facilitar el metabolismo oxigenado.<br><br>
+
+                        <b>Dosis:</b> Equinos 10 ml cada 4 días o según criterio Veterinario. Vía intramuscular o endovenosa lenta.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">VITAMINICOS B1 X 3 GRS</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/VITAMINICO B1-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        VITAMINAS B1   <br>        
+                        Vitamina B1 (tiamina clorhidrato) 30grs.  <br> 
+                        Agentes de formulación c.s.p. 100ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 50ml.<br><br>
+
+                        <b>Indicaciones:</b> VITAMINICO<br>
+                        Terapéuticamente sus indicaciones son todas aquellas en que se manifiesta una carencia (Neuritis o Polineuritis, Síndromes ciáticos, Algias, Hepatoalgias) o en aquellos casos en que sin carencia manifiesta se busque acciones terapeúticas como en paralisis de diversos tipos. Para reforzar la fijación de glucogeno y en caso de falta de apetito.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos: 10ml. Diarios o según prescripción del Médico Veterinario.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">GLUCO B</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/GLUCO B-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+                        <b>Fórmula:</b><br>
+                        GLUCOSA VITAMINAS B-PP   <br> 
+                        Vitamina B1 (Tiamina) 1gr.    <br>
+                        Vitamina B2 (Riboflavina) 0.30grs.    <br>
+                        Vitamina B6 (Clorhidrato de piridoxina) 0.20grs. <br>   
+                        Vitamina PP 12grs.    <br>
+                        Glucosa pura anhidra 250grs.   <br> 
+                        Aguas tridestilada epirogena estéril c.s.p. 1000ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 500ml.<br><br>
+
+                        <b>Indicaciones:</b> VITAMINCO GLUCOSADO<br>
+                        Stress post-operatorio, quemaduras, déficit calórico o vitaminicos, deshidratación, diarrea, enfermedades hepaticas renales o cardiacas. Tonico cardiaco y desintoxicante. En el equino deportivo mejora la circulación miocárdica y es un estimulante cardiomuscular. Para mejorar el metabolismo de la celula nerviosa y hepática.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos: 100ml. a 500ml. diarios o según prescripción del Médico Veterinario.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">H500 PLUS</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/H-500 PLUS-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        ACIDO FOLICO-MINERALES-VITAMINA B   <br>                           
+                        Citrato de hierro amoniacal 100.00g.   <br>
+                        Cloruro de cobalto 1.50g.   <br>
+                        Nicotinamida 50.00g.   <br>
+                        Vitamina B1 (Clorhidrato de tiamina) 10.00g. <br>  
+                        Vitamina B2 (Riboflavina) 1.00g.   <br>
+                        Vitamina B6 (Piridoxina) 5.00g.   <br>
+                        Vitamina B12 (Cianocobalamina)   <br>
+                        Alcohol bencilico 20ml.   <br>
+                        Agua tridestilada epirogena esteril c.s.p. 1000ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 50ml.<br><br>
+
+                        <b>Indicaciones:</b> HEMATINICO<br>
+                        En el equino deportivo mejora el estado general. Como eritroproyético y antianemico. Reconstituyente general. Ayuda el creciemiento y desarrollo. En casos de agotamiento actua como tonico. En porcinos estabulados preventivamente en sus primeras semanas de vida a fin de evitar la anemia hipocrómica y necrocítica.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos: 10ml. Cada 48hs. Lechones:0.5ml. a 1 ml. 2 a 4 dias después del nacimiento.<br>
+                        Terneros: 5 ml. semanalmente.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">POLIAMIN</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/POLIAMIN-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        AMINOACIDOS-VITAMINAS B   <br>
+                        Vitamina B1 15000g.   <br>
+                        Vitamina B2 (base) 0.2500g.   <br>
+                        Vitamina B15 (acido pangamico) 0.5000g.   <br>
+                        Nicotinamida 7.5000g.   <br>
+                        Metionina DL 7.5000g.   <br>
+                        Tirosina L 0.2500g.   <br>
+                        Glicocola 12.5000g.   <br>
+                        Arginina (monoclorohidrato) 1.0000g.   <br>
+                        Fenilalanina 0.6250g.   <br>
+                        L Histidina 0.2500g.   <br>
+                        Isoleucina 0.2500g.   <br>
+                        L Leucina 0.5000g.   <br>
+                        Triptofano DL 0.2500g.   <br>
+                        Valina L 0.2500g.   <br>
+                        Cloruro de cobalto 1.0000g.   <br>
+                        Cloruro de sodio 5.0000g.   <br>
+                        Cloruro de magnesio 12.5000g.  <br> 
+                        Cloruro de calcio 1.0000g.   <br>
+                        Cloruro de potasio 0.7500g.   <br>
+                        Levulinato de calcio 12.5000g. <br>  
+                        Glucosa 200.0000g.   <br>
+                        Sacarosa 200.0000g.   <br>
+                        Pantotenato de calcio 1.5000g.   <br>
+                        Bitartrato de colina 12.5000g.   <br>
+                        Extracto de higado    <br>
+                        Pasta Opo II 17.5000g.   <br>
+                        Agua purificada c.s.p. 1000cc.<br><br>
+
+                        <b>Presentación:</b> Botellas plásticas de 1l.<br><br>
+
+                        <b>Indicaciones:</b> ENERGETICO-OPOTERAPICO RECONSTITUYENTE<br>
+                        Como energético y reconstituyente general, normaliza el metabolismo y facilita la asimilación de los alimentos aumentando el poder de oxigenación de los glóbulos rojos. Animales en crecimiento favorece el desarrollo. Se aconseja en caso de Hipo y Avitaminosis, Raquitismo, Anemias, falta de estado y en animales sobreentrenados.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos adultos: 20 a 40ml. diarios durante 15 dias, suspender 15 dias y nuevo ciclo. EXCLUSIVAMENTE POR VÍA BUCAL CON JERINGA O EN LA RACIÓN POR SU SABOR AGRADABLE.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">VITAMINICO B12</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/VITAMINA B 12-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        VITAMINAS B12 <br>   
+                        Cianocobalamina (B12) 100.000mcgrs.   <br>
+                        Cloruro de sodio 0.7grs.   <br>
+                        Agua tridestilada   <br>
+                        Apirogena esteril c.s.p. 100.0ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 50ml.<br><br>
+
+                        <b>Indicaciones:</b> VITAMINICO<br>
+                        En anemias polineurítis, neuralgias, trastornos del crecimiento, hepatitis, afecciones óseas, enterocolítis y trastornos digestivos.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos: 10ml. cada 4 dias. VIA INTRAMUSCULAR O ENDOVENOSA
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">VITAMINICO C</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/VITAMINICO C-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        ACIDO ASCORBICO  <br>
+                        Vitamina C (Acido ascórbico) 15g.  <br>
+                        Bicarbonato de sodio 7g.  <br>
+                        Excipientes 100ml.<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla de 100ml.<br><br>
+
+                        <b>Indicaciones:</b> VITAMINICO<br>
+                        Hipo y avitaminosis, fragilidad capilar. En las enfermedades infecciosas actua como coadyuvante. Mejora el estado general y da más resitencia la trabajo.<br><br>
+
+                        <b>Dosis:</b> Equinos y Bovinos: 3g. (20ml.) por dia o mas según prescripción del Médico Veterinario. VIA ENDOVENOSA EXCLUSIVAMENTE
+                      </div>
+
+                      <!-- CREMAS -->
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">CREMA BALSAMICO ANALGESICA</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/CREMA BALSAMO ANALGESICA ALOE VERA - 1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+                        <b>Fórmula:</b><br>
+                        ALCANFOR-GUAYACOL-SALICILATO DE METILO      <br>      
+                        Guayacol liquido 6.00grs.            <br>
+                        Salicilato de metilo 7.50grs.             <br>
+                        Alcanfor en polvo 6.00grs.               <br>
+                        Esencia de mentol 2.50grs.              <br>
+                        Balsamo tranquilo 5.00grs.             <br>
+                        Tintura de iodo al 12% 1.00grs.        <br>    
+                        Vitamina A 30.000 UI            <br>
+                        Monoestearato 440 de glicol           <br>  
+                        Polietilenito c.s.p. 100grs.<br><br>
+
+                        <b>Presentación:</b> Pote de 450grs.<br><br>
+
+                        <b>Indicaciones:</b><br>
+                        ANALGESICO ANTIINFLAMATORIO<br>
+                        En dolores oseos, articulares o musculares. Después de los ejercicios de equinos en competición, permite una rápida recuperación.
+                        Como masaje, en los equinos deportivos, posterior a la prueba hípica para rápida recuperación.<br><br>
+
+                        <b>Dosis:</b><br>
+                        Con una pequeña cantidad en la palma de la mano, se fricciona bien la zona dolorida o frotar hasta que penetre (tiene factores endodérmicos) USO EXTERNO
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">CICATRIZOL</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/CICATRIZOL - 1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        ACEITE DE HIGADO DE BACALAO-SULFANILAMIDA  <br>
+                        VITAMINA A  <br>
+                        Vitamina A 200.000 U.I  <br>
+                        Sulfanilamida 6grs.  <br>
+                        Aceite de higado de bacalao 4grs.  <br>
+                        Acido borico 3grs.  <br>
+                        Oxido de cinc 10grs.  <br>
+                        Monoestearato 400 de glicol <br>
+                        Polietilenito c.s.p. 100grs.<br>
+                        Presentación:Potes de 470grs.<br><br>
+
+                        <b>Indicaciones:</b> CREMA CICATRIZANTE ANTISEPTICA REGENADORA DE TEJIDOS<br>
+                        Tratamiento de heridas, forúnculos, quemaduras, escaras, grietas, ulceras. En el eczema de la cuartilla de los equinos. La vitamina A tiene acción sobre los epitelios regenerando tegumentos.<br><br>
+
+                        <b>Dosis:</b><br>
+                        Especies a que se destina: esquina, bovina, ovina y cerdo.<br>
+                        Limpiar la zona y luego aplicar una capa de pomada CICATRIZOL pudiendo repetirse las veces que sea necesario o según prescripción del Médico Veterinario. USO EXTERNO
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">DOLORFIN- HAY FOTO</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/DOLORFIN-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+
+                        <b>Fórmula:</b><br>
+                        ALCANFOR-GUAYACOL-SALICILATO DE METILO  <br>
+                        Alcanfor polvo 6.50 grs.  <br>
+                        Salicilato de metilo 3.00 grs.  <br>
+                        Esencia de menta 2.50 grs.  <br>
+                        Esencia de eucaliptus 2.50 grs.  <br>
+                        Aloe vera tintura 2% 2.00 ml.  <br>
+                        Cera lanette 22.00 grs.  <br>
+                        Glicerina 5.00 grs.  <br>
+                        Guayacol liquido 1.20 ml.  <br>
+                        Agua destilada c.s.p. 100.00 ml.<br><br>
+
+                        <b>Presentación:</b> Potes conteniendo 125 grs.<br><br>
+
+                        <b>Indicaciones:</b> ANALGESICO ANTIFLOGISTICO<br>
+                        Crema especialmente formulada para afecciones de origen traumatologico contusiones, entorcis, traumatismos en general, torceduras, algias de origen tendinoso, ligamentoso articulares y musculares.<br><br>
+
+                        <b>Dosis:</b> Masajear la zona afectada en forma circular para favorecer la penetración del producto, 3 veces al dia hasta la remisión del dolor. Se puede masajear con cepillo aplicador de cerda blanda o hisopo de algodón hasta la remisión de los síntomas o según prescripción del Médico Veterinario. USO EXTERNO
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">NORTCREM ALOE VERA</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/NORTCREM ALOE VERA-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        <br>
+                        <b>Fórmula:</b><br>
+                        ALOE VERA-VITAMINA A   <br>
+                        Vitamina A 250.000 U.I   <br>
+                        Aloe vera al 2% 2 ml.   <br>
+                        Colorantes y agentes    <br>
+                        De formulación c.s.p. 100 grs.<br><br>
+
+                        <b>Presentación:</b> Potes de 250grs.<br><br>
+
+                        <b>Indicaciones:</b> BACTERICIDA LUBRICANTE CICATRIZANTE Y SUAVIZANTE<br>
+                        Lubricante, cicatrizante, preventivo y curativo de las grietas de los pezones protegiendolos de los agentes microbianos. Con factores endodermicos que facilitan la penetración epitelial. Es soluble en agua y no tiene sabor ni olor.<br><br>
+
+                        <b>Dosis:</b> Aplicar en la zona a tratar de 2 a 3 veces por dia o según prescripción del Médico Veterinario. USO EXTERNO
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>NORTCREM ELASTINA</h2>
+                        <hr style="width: 100%">
+                        Crema de ordeñe con elastina<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Elastina    2 g<br>
+                        Vitamina A   25.000 UI<br>
+                        Excipientes c.s.p    100 g<br><br>
+
+                        <b>Presentación:</b> Pote conteniendo 125 g<br><br>
+
+                        <b>Indicaciones:</b> CICATRIZANTE – LUBRICANTE- HIDRATANTE para vacas lecheras. Nortcrem Crema de Ordeñe con Elastina es inodora y por lo tanto no influye en el olor ni en el sabor de la leche.<br><br>
+
+                        <b>Dosis:</b> Aplicar 2 a 3 veces al día después del ordeñe y lavar la ubre antes del próximo ordeñe. La elastina mejora la tonicidad de la epidermis, dando un aspecto suave y terso a la glándula mamaria. USO EXTERNO.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>NORTCREM VITAMINA A</h2>
+                        <hr style="width: 100%">
+                        Crema de ordeñe con Vitamina A<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Vitamina A   25.000 UI<br>
+                        Excipientes c.s.p    100 g<br><br>
+
+                        <b>Presentación:</b> Pote conteniendo 450 g<br><br>
+
+                        <b>Indicaciones:</b> CICATRIZANTE – LUBRICANTE- HIDRATANTE para vacas lecheras. Nortcrem Crema de Ordeñe con Vitamina A es inodora y por lo tanto no influye en el olor ni en el sabor de la leche.<br><br>
+
+                        <b>Dosis:</b> Se debe colocar 2 a 3 veces por día en la ubre y en los pezones después del ordeñe y también en casos de inflamaciones, desgarraduras, grietas, ampollas y heridas. Aplicar después del ordeñe y lavar la ubre antes del próximo ordeñe. USO EXTERNO.
+                      </div>
+
+                      <div class="filterDiv equinos-especifi">
+                        <h2>NORTCREM MILK</h2>
+                        <hr style="width: 100%">
+                        Crema de ordeñe fluida con Vitamina A – E y Aloe Vera<br><br>
+
+                        <b>Fórmula Cualicuantitativa:</b><br>
+                        Vitamina A   25.000 UI<br>
+                        Vitamina E    2,00 g<br>
+                        Aloe Vera 2%      2,00 <br>
+                        Excipientes c.s.p    100 g<br><br>
+
+                        <b>Presentación:</b> Pote conteniendo 200 g<br><br>
+
+                        <b>Indicaciones:</b> CICATRIZANTE – LUBRICANTE- HIDRATANTE Nortcrem Crema de Ordeñe Nort Milk lubrica, suaviza y cicatriza los pezones de la Vaca Lechera. Protege la piel despigmentada de Quinos y Bovinos, evitando las lesiones de fotosensibilización. El Aloe Vera tiene acción antiséptica e hidratante. Elimina las manchas de la epidermis. Esposible usarla en todas las especies animales. <br><br>
+
+                        <b>Dosis:</b> Se debe colocar en la ubre y en loz pezones, después del ordeñe y también en casos de inflamaciones, desgarraduras, grietas, ampollas y heridas. 2 a 3 veces pordía, aplicar luego del ordeñe y lavar la ubre antes del próximo. USO EXTERNO
+                      </div>
+
+                      <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        ///////////////////////////////////////////////PEQUEÑOS ANIMALES/////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+                        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+                      <!-- ANTIBIOTICOS -->
+                      <div class="filterDiv pequenos-animales-antibio">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('grandes-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              </div>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">AMOXICILINA 250</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/AMOXICILINA 250.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Antibiótico de amplio espectro - Oral<br><br>
+
+                        <b>Fórmula Cualicuantitativa:</b><br>
+                        Cada comprimido contiene: <br>
+                        Amoxicilina Trihidrato  250 mg  <br>
+                        Excipiente c.s.p 500 mg<br><br>
+
+                        <b>Presentación:</b> Caja conteniendo 100 comprimidos (10 blister de 10 comprimidos).<br><br>
+
+                        <b>Indicaciones:</b><br>
+                        Infecciones del Aparato Respiratorio, Genitourinario y del tubo digestivo. Infecciones cutáneas (Piodermítis). Entre las infecciones máscomunes citaremos: Faringitis, Traqueobronquitis, Neumonía, Otitis, Gastroenteritis Infecciosas, Cistitis, Metritis, Piómetra. Abscesos, heridas accidentales o Quirúrgicas. Complicaciones Bacterianas de enfermedades virales.<br><br>
+
+                        <b>Dosis:</b> En Caninos y Felinos administrar 1 comprimido cada 10 Kpv, 2 veces al día, durante7 días, o según prescripción del Médico Veterinario. VIA ORAL
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>AMOXICILINA SUSPENSIÓN</h2>
+                        <hr style="width: 100%">
+                        Antibiótico de amplio espectro Oral.<br><br>
+
+                        <b>Fórmula Cualicuantitativa:</b><br>
+                        Amoxicilina Trihidrato 4,5 mg  <br>
+                        Excipiente en polvo c.s.p. 100 mg<br><br>
+
+                        <b>Presentación:</b> Frasco con 33,34 g de polvo para preparar ml de suspensión extemporánea.<br><br>
+
+                        <b>Indicaciones:</b> Indicado en infecciones del aparato respiratorio, genito urinario y tubo digestivo, abscesos, heridas accidentales o quirúrgicas. Complicaciones bacterianas de enfermedades víricas. Para caninos y felinos.<br><br>
+
+                        <b>Dosis:</b> 5 ml cada 10 Kpv (equivalente a 125 mg de Amoxicilina / 10 Kpv), 2 o 3 veces al día, vía oral durante 7 días o según prescripción del Médico Veterinario.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>BRONQUIBEST</h2>
+                        <hr style="width: 100%">
+                        Antibiótico Oral para vías Respiratorias.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Cloranfenicol palmitato   2,5 g<br>
+                        Difenhidramina clorhidrato   0,10 g<br>
+                        Glicinato de teofilina sódica 0,40 g<br>
+                         Guayacolato de glicerilo   0,30 g<br>
+                        Bromhexina Clorhidrato   0,04 g<br>
+                        Oxeladine citrato    0,05 g<br>
+                        Excipientes c.s.p   100 ml<br><br>
+
+                        <b>Presentación:</b> Frasco x 100 ml.<br><br>
+
+                        <b>Indicaciones:</b> Infecciones agudas y crónicas de las vías respiratorias. Infecciones otorrinolaringológicas.<br><br>
+
+                        <b>Dosis:</b> 5 ml cada 10 Kpv cada 6 a 8 horas
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>AMPIBEST COMPRIMIDOS</h2>
+                        <hr style="width: 100%">
+                        Antibiótico Oral.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Cada comprimido tiene:<br>
+                        Ampicilina Trihidrato   250 mg<br>
+                        Excipientes c.s.p  <br><br>
+
+                        <b>Presentación:</b> Estuche conteniendo 20 comprimidos.<br><br>
+
+                        <b>Indicaciones:</b> Indicado en Procesos infecciosos producidos por gérmenes sensibles a la ampicilina
+                        Dosis: Para caninos y felinos: 1 comprimido cada 10 Kpv cada 6 a 8 horas
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>AMPIBEST SOSPENSIÓN</h2>
+                        <hr style="width: 100%">
+                        Antibiótico Oral.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Cada comprimido tiene:<br>
+                        Ampicilina Trihidrato   3g<br>
+                        Excipientes c.s.p  <br><br>
+
+                        <b>Presentación:</b> Frasco x 100 ml<br><br>
+
+                        <b>Indicaciones:</b> Indicado en Procesos infecciosos producidos por gérmenes sensibles a la ampicilina.<br><br>
+
+                        <b>Dosis:</b> Una medida cada 10 Kg de peso vivo cada 6 a 8 horas. 1 medida es igual a 5 ml=250 mg.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>OD 10</h2>
+                        <hr style="width: 100%">
+                        Antibiótico Bactericida Colirio.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Sulfato de Neomicina 1000 mg<br>
+                        Clorhidrato de Nafazolina  50 mg<br>
+                        Meleato de Clofeniramina 100 mg<br>
+                        Violeta de Genciana  50 mg<br>
+                        Cloruro de Benzalconio  200 mg<br>
+                        Difenhidramina   5 mg<br>
+                        Excipientes c.s.p   100 mg  <br><br>
+                         
+                        <b>Presentación:</b> Por 200 ml y por 500 ml.<br><br>
+
+                        <b>Indicaciones:</b> Especialmente formulado para el control y curación de lesiones oculares y procesos infecciosos de la piel como Conjuntivitis, Blefaris, Queratitis, Ulceras de córneas, Queratocconjuntivitis, Escoriaciones, Grietas, Heridas, Pietin, Descole, Descorne, Cordón umbilical, Castración y Desinfección de campo operatorio.<br><br>
+
+                        <b>Dosis:</b> En afecciones oculares, aunque la misma esté localizada en un solo ojo, es conveniente usar el fármaco en ambos ojos cubriendo totalmente el globo ocular. Para uso dérmico pulverizaciones o goteo sobre la zona a tratar cubriéndola totalmente. Puede repetirse cada 12 o 14 horas, salvo mejor criterio del Médico Veterinario.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>QUIMBEST COMPRIMIDOS</h2>
+                        <hr style="width: 100%">
+                        Antibiótico Oral. <br><br>
+
+                        <b>Fórmula:</b><br>
+                        Trimetropina   60 mg<br>
+                        Sulfametoxazol   300 mg<br>
+                        Esencia de dulce de leche y excipientes c.s.p.<br><br>
+
+                        <b>Presentación:</b> Estuche contenedor de 10 comprimidos.<br><br>
+
+                        <b>Indicaciones:</b> Infecciones de las vías respiratorias superiores e inferiores. Infecciones gastroinstetinales y hepatobiliares. Infecciones genitourinarias. Infecciones de la piel y partes blandas<br><br>
+
+                        <b>Dosis:</b> En caninos y felinos: ½ comprimido cada 10 Kpv cada 10 horas. VIA ORAL.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antibio">
+                        <h2>QUIMBEST</h2>
+                        <hr style="width: 100%">
+                        Suspensión de Amplio Espectro Bactericida. Antibiótico Oral.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Trimetropina   1,2 mg<br>
+                        Sulfametoxazol   6,0 mg<br>
+                        Esencia de dulce de leche, vainilla  y excipientes c.s.p.<br><br>
+
+                        <b>Presentación:</b> Frasco x 100 ml..<br><br>
+
+                        <b>Indicaciones:</b> Infecciones de las vías respiratorias superiores e inferiores. Infecciones gastroinstetinales y hepatobiliares. Infecciones de la piel y 
+                        partes blandas<br><br>
+
+                        <b>Dosis:</b> En caninos y felinos: ½ cucharadita (2,5 ml) cada 10 Kpv cada 12 horas. VIA ORAL.
+                      </div>
+
+                      <!-- ANABOLICOS -->
+                      <div class="filterDiv pequenos-animales">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">19 17 A</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/19 17 A-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Promotor de Crecimiento Inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        19 Nort testosterona   <br>
+                        17 Ciclohexil propionato ..... 1,00 g  <br> 
+                        Excipiente oleoso c.s.p. 100.00 ml<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla x 10 ml y x 100 ml<br><br>
+
+                        <b>Indicaciones:</b> Características preponderantes: Aumenta las defensas naturales y el apetito, eliminando el estado de estres. Para Caninos y Felinos.<br><br>
+
+                        <b>Dosis:</b> Caninos según el peso de 0,5 a 2 ml y Felinos según peso de 0,5 a 1 ml. Puede repetirse cada 15 ó 21 días, salvo mejor criterio del Médico Veterinario. Aplicación: Intramuscular ó subcutánea.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">19 17 A</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/19 17 A-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Anabólico Vitaminado Inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        19 Nort. Testosterona Beta  <br>
+                        Fenil Propionato  2 g  <br>
+                        Vitamina A (palmitato)  250.000 U.I.  <br>
+                        Vitamina D2 (calciferol)   70.000 U.I.  <br>
+                        Vitamina E (Acetato de alfatocoferol)  70 U.I. <br> 
+                        Excipiente oleoso c.s.p.  100 ml<br><br>
+
+                        <b>Presentación:</b> Fco. amp x 50 ml<br><br>
+
+                        <b>Indicaciones:</b> Regula el apetito. Incrementa la masa y fuerza muscular. Da mayor consistencia a tendones, cartílagos y ligamentos. Inmejorable acción sobre animales estresados. Protege la célula hepática y renal (Acción antitóxica). Con marcada acción sobre los sistemas locomotor, digestivo, nervioso y hematopoyético.<br><br>
+
+                        <b>Dosis:</b> Caninos y felinos 0,50 a 2 ml según tamaño. Puede repetirse cada 15 a 21 días o según criterio del Médico Veterinario. Aplicación: Intramuscular profunda.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales">
+                        <h2>MASPES</h2>
+                        <hr style="width: 100%">
+                        ANABÓLICO NO HORMONAL<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Ciprohepladina Clorhidrato 4 mg;<br>
+                        Vit. A 2000 Ul<br>
+                        Vit. B1 10 mg<br>
+                        Vit. B2 5 mg<br>
+                        Vit. B6 20 mg<br>
+                        Vit. B12 100 mcg<br>
+                        Vit. D2 100 Ul<br>
+                        Nicolinamida 50 mg<br>
+                        Lisina 50 m<br>
+                        Metoclorpramida 10 mg<br>
+                        Estanozolol 2mg <br>
+                        Cafeína 50 mg<br>
+                        Sabor a Frambuesa y excipientes c.s.p.<br><br>
+
+                        <b>Presentación:</b> envase con 20 comprimidos.<br><br>
+
+                        <b>Indicaciones:</b> Indicado en Anorexia, Adelgazamiento. Para las especies canina y felina. Administrar por vía oral.<br><br>
+
+                        <b>Dosis:</b> 1 comprimido media hora antes de cada comida.
+                      </div>
+
+                      <!-- ANTICONCEPTIVOS -->
+                      <div class="filterDiv pequenos-animales">cow</div>
+                      <div class="filterDiv pequenos-animales">cow</div>
+                      <div class="filterDiv pequenos-animales">cow</div>
+
+                      <!-- ANALGESICOS ANTIINFLAMATORIOS CORTICOIDES -->
+                      <div class="filterDiv pequenos-animales">cow</div>
+
+                      <!-- ANTIPARASITARIOS -->
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <div id="myBtnContainer">
+                          <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
+                          <div class="row">
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              </div>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div>
+                         
+                        </div>
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">ASCARICIDAS GOTAS</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/ASCARICIDA GOTAS-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Antiparasitario Interno Oral<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Biclorhidrato de Piperazina 20,00 g  <br> 
+                        Metil Bromuro de Homatropina 0,10 g <br>  
+                        Excipientes c.s.p. 100,00 ml<br><br>
+
+                        <b>Presentación:</b> Fco. x 15 ml<br><br>
+
+                        <b>Indicaciones:</b> Especialmente indicado para tratar ascaridiasis en pequeños animales. Para las especies: Caninas y Felinas
+                        Accion terapeutica: Entre las sales de Piperazina se destaca el Biclorhidrato de Piperazina, por su intensa acción antipara-
+                        sitaria y su atoxicidad. Además Ascaricida Gotas incorpora a su formulación un antiespasmódico, que evita la posibilidad de
+                        vómitos posteriores a su administración, no haciendose necesario volver a dar la dosis.<br><br>
+
+                        <b>Dosis:</b> 10 gotas por Kpv pudiendo repetirse a los 15 ó 21 días, según indicaciones del Médico Veterinario. VIA ORAL.
+                      </div>
+                      
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">ANTINSECTO</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/ANTINSECTO.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Antiparasitario Externo<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Diclorvos: fosfato de 0 - (dicloro 2,2  vinilo) y de 0,0 dimetilo  1.000 mg <br> 
+                        Triclorfón: (tricloro 2,2,2 hidroxi- lotil) fosfonato de dimetilo  1.000 mg  <br>
+                        Cipermetrina: 2,2 dimetil 3-(2,2  diclorovinil) ciclopropil carboxilato  de alfa-ciano-3-fenoxibencilo . 400 mg <br><br><br> 
+                        Excipientes c.s.p.  100 ml.<br><br>
+
+                        <b>Indicaciones:</b> Antiparasitario externo, insecticida, piojicida, garrapaticida, antisárnico y pulguicida. Intensa y certera capacidad de volteo. Enérgica y profunda actividad insecticida. Prolongado y persistente efecto residual. Indicado en caninos para el control de garrapatas, piojos, sarna sarcópticas ypulgas. También está indicado para pulverizar los
+                        lugares frecuentados por el animal. Especies a la que se la destina: Canina.<br><br>
+
+                        <b>Presentación:</b> Envase x 70 ml, 125 ml y x 1000 ml<br><br>
+
+                        <b>Dosis:</b> Uso externo. Para baños o pulverizaciones: 15 ml diluido en 1 litro de agua. Los tratamientos pueden repetirse con intervalos de 7 a 10 días o cuando se produzcan reinfestaciones. Para sarnas deben realizarse aplicaciones tópicas con
+                        intervalos de 48 hs., salvo criterio profesional.Para el ambiente frecuentado por el animal, pulverizar cada 7 días.
+                        ADVERTENCIAS: No rociar sobre alimentos, ni aplicar a cachorros menores de 42 días.<br><br>
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">LEVAMISOL</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/LEVAMISOL-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Antiparasitario Interno<br><br>
+
+                        <b>Fórmula:</b><br>
+                        L-Tetramisol   2,5 g  <br>
+                        Excipientes c.s.p. 100 ml<br><br>
+
+                        <b>Presentación:</b> Frasco gotero x 15 ml<br><br>
+
+                        <b>Indicaciones:</b> Levamisol oral, es un antihelmíntico inmuno activador, de amplio espectro, con óptima tolerabilidad y gran eficacia, formulado especialmente para pequeños animales. Indicado en Parasitosis de Caninos y Felinos, provocados por Ascaris, Ancylostomas y Uncinaria.<br><br>
+
+                        <b>Dosis:</b> 7 a 10 gotas por Kpv. Pudiendo repetirse esta dosis a las 24 hs. y a los 15 días ó según criterio del Médico Veterinario. VIA ORAL.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <h2>LOMBRIZNO</h2>
+                        <hr style="width: 100%">
+                        Antiparasitario Interno<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Levamisol clorhidrato    8g  <br>
+                        Excipientes c.s.p. 100 ml<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla x 50 ml.<br><br>
+
+                        <b>Indicaciones:</b> Parasitosis gastrointestinales y pulmonares. Como estimulante de las defensas orgánicas disminuidas, aún en procesos concomitantes. Para las especies Bovina, Ovina, Porcina, Caprina, Canina y Felina. <br><br>
+
+                        <b>Dosis:</b> Bovinos, Ovinos, Caprinos, Porcinos y Caninos 1 ml / 10 kg de peso vivo. VIA INTRAMUSCULAR O SUBCUTÁNEA.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <h2>TALCO M-S-L</h2>
+                        <hr style="width: 100%">
+                        Garrapaticida Pulguicida Piojicida<br><br>
+
+                        <b>Fórmula:</b><br>
+                        DICLORVOS 1.000 mg  <br>
+                        TRICLORFON 1.000 mg  <br>
+                        CIPERMETRINA  200 mg  <br>
+                        Excipientes c.s.p. 100 g<br><br>
+
+                        <b>Presentación:</b> Envase conteniendo 100 g y 200 g<br><br>
+
+                        <b>Indicaciones:</b> Acción terapéutica: Antiparasitario externo de máxima capacidad derribante y prolongada acción residual.<br>
+                        Indicado en Parasitosis externas en caninos y para espolvorear en almohadones y los lugares frecuentados por el animal.<br><br>
+
+                        <b>Dosis:</b> Uso Externo. Espolvorear sobre el animal frotando para que penetre hasta la piel. Aplicar también en almohadones, cuchas, etc. Puede repetirse semanal o quincenalmente según el grado de infestación, o a criterio del Médico Veterinario actuante. Emplear la cantidad necesaria acorde al tamaño del animal.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <h2>NORTOX L.A FELINOS</h2>
+                        <hr style="width: 100%">
+                        Pulguicida Piojicida de Larga Acción<br><br>
+
+                        <b>FORMULA CUALICUANTITATIVA:</b><br>
+                        Imidacloprid  10,00 g<br>
+                        Metopreno 8,80 g<br>
+                        Excipientes c.s.p. 100 ml<br><br>
+
+                        <b>Presentación:</b> Caja con 12 pipetas plásticas inviolables x 0,5 ml c/u.<br><br>
+
+                        <b>Indicaciones:</b> Indicado para la prevención y tratamiento de las infestaciones por pulgas y piojos en Felinos. Posee acción pulguicida (adulticida, larvicida y ovicida) sobre Ctenocephalides felis, y acción piojicida sobre Felicola subrostratus.<br><br>
+
+                        <b>Dosis:</b> Felinos desde 8 semanas de edad hasta 4 kg de peso: 1 pipeta con 0,5 ml. La Pipeta Nortox L.A. Felinos, es de uso
+                        externo tipo “spot- on”. Se aplicará de manera tópica sobre la piel del animal, debiéndose separar el pelo en el punto de
+                        aplicación para que el producto tome contacto directo con la piel. El punto de aplicación elegido será entre los hombros.
+                        En caso de aplicar una parte del producto sobre el pelo del animal, puede presentarse un aspecto pegajoso en el sitio de
+                        aplicación, el cual desaparecerá luego de 24 hs.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <h2>NORTOX L.A CANINOS</h2>
+                        <hr style="width: 100%">
+                        Pulguicida Garrapaticida de Larga Acción<br><br>
+
+                        <b>FORMULA CUALICUANTITATIVA:</b><br>
+                        Imidacloprid ........................ 10,00 g<br>
+                        Permetrina ......................... 45,00 g<br>
+                        Metopreno ........................... 8,80 g<br>
+                        Excipientes c.s.p. ................ 100 ml<br><br>
+
+                        <b>Presentación:</b> Caja con 12 pipetas plásticas inviolables, según peso del Canino a tratar.<br><br>
+
+                        <b>Indicaciones:</b> Indicado para el tratamiento y prevención de las infestaciones por pulgas y garrapatas en caninos.<br>
+                        Posee acción pulguicida (adulticida, larvicida y ovicida) sobre Ctenocephal ides Canis,Ctenocephalides Felis y Pulex irritans. El efecto sobre huevos y larvas impide la maduración y el desarrollo de las pulgas, mejorando y haciendo más eficiente el control antiparasitario. Posee acción garrapaticida sobre Riphicephalus sanguíneus. No utilizar en Felinos Pipetas para
+                        uso en Caninos.<br><br>
+
+                        <b>Dosis:</b> Aplicar a Caninos que cumplan 8 semanas de edad:<br>
+                        Caninos: hasta 10 kg de peso: 1 Pipeta spot on de 1,10 ml.<br>
+                        Caninos: de 11 a 20 kilos de peso: 1 Pipeta spot on de 2,20 ml.<br>
+                        Caninos: de 21 a 40 kilos de peso: 1 Pipeta spot on de 4,40 ml.<br>
+                        Caninos: de 41 a 60 kilos de peso: 1 Pipeta spot on de 6,60 ml.<br>
+                        La Pipeta Nortox L.A. Caninos, es de uso externo tipo “spot- on”. Se aplicará de manera tópica sobre la piel del animal vaciando el contenido de la pipeta, debiéndose separar el pelo en el punto de aplicación para que el producto tome contacto directo con la piel. El punto de aplicación elegido será entre los hombros. En caso de aplicar una parte del producto sobre el pelo del animal puede presentarse un aspecto pegajoso en el sitio de aplicación, el cual desaparecerá luego de 24 hs.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-antiparasi">
+                        <h2>PARAFEN COMPRIMIDOS</h2>
+                        <hr style="width: 100%">
+                        Antiparasitario Oral<br><br>   
+
+                        <b>Fórmula:<br>
+                        Febendazole   250 mg<br>
+                        Excipientes c.s.p 1 comprimido<br><br>
+
+                        <b>Presentación:</b> Envase conteniendo 10 comprimidos <br><br>
+
+                        <b>Indicaciones:</b> Vermicida, LArvicida y Ovicida en parasitosis por Nematodes y Cestodes (Anclylostomas, Ascaris, Trichuris, Oxiuris y Tenias sp)<br><br>
+
+                        <b>Dosis:</b> 1 comprimido cada 10 Kpv por día durante 5 días consecutivos. VIA ORAL
+                      </div>
+
+                      <!-- ANTIRABICA -->
+                      <div class="filterDiv pequenos-animales">cow</div>
+                      <div class="filterDiv pequenos-animales">cow</div>
+
+                      <!-- ESPECIFICOS -->
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <div id="myBtnContainer">
+                          <div class="row">
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('equinos-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
+                              </div>
+                              <div class="col-md-6">
+                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              </div>
+                          </div> 
+                        </div>
+                     </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">UNGÜENTO SANITARIO</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/UNGUENTO SANITARIO-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Antiparasitario Externo
+
+                        Fórmula:
+                        Diclorvos 1000 mg  
+                        Triclorfón  1000 mg  
+                        Cipermetrina  200 mg  
+                        Lanolina 5000 mg  
+                        Pino, aceite 2000 mg  
+                        Vaselina líquida  10000 mg 
+                        Petrolato sólido c.s.p. 100 g
+
+                        Presentación: Envase con 50 g
+
+                        Indicaciones: En sarna, miasis, como repelente de insectos, control de pulgas, piojos y garrapatas. Especie a que se la destina: Caninos. No utilizar en cachorros de menos de 4 semanas de vida, ni en animales sensibles a los fosforados.
+
+                        Dosis: En sarna extender una pequeña cantidad sobre la superficie a tratar, frotando para que penetre,pudiendose repetir cada 24 hs.En miasis se debe aplicar sobre heridas no sangrantes, haciendo penetrar el producto en la misma, puede
+                        repetirse cada 48 hs. Como repelente de insectos colocar una pequeña cantidad sobre las puntas de las orejas y en la ingle. Como pulguicida, piojicida y garrapaticida colocar una capa delgada en distintas partes del cuerpo. Aplicación: Local externa.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <h2>MEPENZINA</h2>
+                        <hr style="width: 100%">
+                        Antidiarréico Suspensión Oral.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Diclorvos   1000 mg<br>
+                        Triclorfón   1000 mg<br>
+                        Cipermetrina   200 mg<br>
+                        Lanolina    5000 mg<br>
+                        Pino, aceitr   2000 mg<br>
+                        Vasilina liquida  10000 mg<br>
+                        Petrolato sódico c.s.p   100 g<br><br>
+
+                        <b>Presentación:</b> Envase con 50 g<br><br>
+
+                        <b>Indicaciones:</b> En la sarna, como repelente de insectos, control de pulgas, piojos y garrapatas. Especie a la que se destina: caninos. No utilizar en cachorros de menos de 4 semanas de vida, ni en animales sensibles a los fosforados.<br><br>
+
+                        <b>Dosis:</b> En sarna extender una pequeña cantidad sobre la superficie a tratar, frotando para que penetre pudiéndose repetir cada 24 horas. En miases se debe aplicar sobre heridas no sangrantes, haciéndose penetrar el producto en la misma, puede repetirse cada 48 hs. Como repelente de insectos colocar una pequeña cantidad sobre las puntas de las orejas y en ingle. Como pulguicida, piojicida y garrapaticida colocar una capa delgada en las disntas partes del cuerpo.  Aplicación local externa.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">SINDIAR ANTIDIARRÉICO</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/SINDIAR INYECTABLE Y ORAL-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Inyectable y Oral<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Loperamida clorhidrato 20 mg  <br>
+                        Propilenglicol 6 ml  <br>
+                        Excipientes c.s.p. 10 ml<br><br>
+
+                        <b>Presentación:</b> Frasco x 10 ml<br><br>
+
+                        <b>Indicaciones:</b> Tratamiento sintomático de diarreas agudas o crónicas de cualquier etiología: bacterianas, parasitarias, virosicas (moquillo, parvovirus) o inespecificas. No debe usarse en hembras preñadas. Uso en CANINOS y FELINOS<br><br>
+
+                        <b>Dosis:</b> 0,5 a 2 ml después de cada deposición diarreica. Inyectable vía intramuscular o subcutánea, o administrar por vía oral. Dosis máxima diaria 6-8 ml.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <h2>SINDIAR ANTIDIARRÉICO COMPRIMIDOS</h2>
+                        <hr style="width: 100%">
+                        Antidiarréico Oral<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Loperamida clorhidrato 1,00 mg  <br>
+                        Neomicina Sulfato  50,00 mg<br>
+                        Furazolidona   50,000 mg<br>
+                        Ftalilsulfatiazol  200,00 mg<br>
+                        Menadiona Sulfito Sódico  0,50 mg<br>
+                        Excipientes c.s.p. 1 comprimido<br><br>
+
+                        <b>Presentación:</b> Envase x 20 comprimidos<br><br>
+
+                        <b>Indicaciones:</b> Diarreas bacterianas, parasitarias, virósicas (moquillo, parvovirus) o inespecíficas. <b>Contraindicaciones:</b> No debe usarse en hembras gestantes.  Uso en Caninos y Felinos.<br><br>
+
+                        <b>Dosis:</b> 1 comprimido cada 6 hs. VÍA ORAL. 
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <h2>VOMFIN GOTAS</h2>
+                        <hr style="width: 100%">
+                        Anti vomitivo  Anticinetósico.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Sulpirida   2,00 g<br>
+                        Dimenhidranato  2,00 g<br>
+                        Menadiona Sulfito Sódico  0,50 mg<br>
+                        Excipientes c.s.p. 100 ml<br><br>
+                         
+                        <b>Presentación:</b> Frasco x 20 ml<br><br>
+
+                        <b>Indicaciones:</b> Vómitos, vértigos,  mareos, síndrome laberíntico, intolerancia medicamentosa, trastornos funcionales digestivos. Para Caninos y Felinos.<br><br>
+
+                        <b>Dosis:</b> 1 a 3 gotas por Kpv 2 a 4 veces al día. VIA ORAL. 
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <h2>VOMFIN INYECTABLE</h2>
+                        <hr style="width: 100%">
+                        Anti vomitivo  Anticinetósico.<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Sulpirida   2,00 g<br>
+                        Cloruro de Sodio  9,5 mg<br>
+                        Excipientes c.s.p. 2 ml<br><br>
+                         
+                        <b>Presentación:</b> Caja de 2 frascos x 2 ml.<br><br> 
+
+                        <b>Indicaciones:</b> Náuseas y vómitos. Dispepsia gástrica. Reflujo gastroesofágico. Antiemético. Mal del movimiento. Síndrome Laberíntico. Vértigos. Asociado a drogas agresivas para el aparato digestivo (antibióticos, antiparasitarios, digitalicos, antineoplásticos, etc.) mejora su tolerancia. Trastornos funcionales digestivos.<br><br>
+
+                        <b>Dosis:</b> 1/2 a 1 ampolla 1 a 3 veces por día o según citerio del profesional.  VIA INTRAMUSCULAR. Para las especies caninas y felinas.<br>
+                      </div>
+
+                      <div class="filterDiv pequenos-animales-especifi">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">OSTEONORT</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/OSTEONORT-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Regenerador Osteoarticular Antiartrósico Inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        FORMULA CUALICUANTITATIVA:  <br> 
+                        Condroitín sulfato ............ 12.00 g  <br> 
+                        Glucosamida ............... 20.00 g   <br>
+                        Excipientes c.s.p. ............... 100 ml<br><br>
+
+                        <b>Presentación:</b> Frasco ampolla x 50 ml y caja con 6 frascos amp. x 10 ml<br><br>
+
+                        <b>Indicaciones:</b><br>
+                        Regenerador osteoarticular, antiartrósico, promotor de la condrogénesis. Uso en Equinos Deportivos, Caninos y Felinos.<br><br>
+
+                        <b>Dosis:</b><br>
+                        Equinos: 5 ml / día.
+                        Caninos: 2 ml / día.
+                        Felinos: 0,5 ml / día.
+                        Aplicación: Vía intramuscular profunda
+                        exclusivamente
+                      </div>
+
+                      <!-- VITAMINICOS – MINERALIZANTES - CALCIFICANTES  -->
+                      <div class="filterDiv pequenos-animales">
+                        <div id="row">
+                            <div class="col-md-4">
+                                <h2 style="padding-top: 40px;">VETERVITA CÁLCICA</h2>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="col-md-2">
+                                <img src="productos-imagenes/VETERVITA CÁLCICA-1.jpg" style="width: 150px; margin-left: 10px; float: right;" >
+                            </div>
+                        </div> 
+                        <hr style="width: 75%">
+                        Suplemento Vitamínico Mineral Oral<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Cloruro de Calcio  50,00 g  <br>
+                        Cloruro de Magnesio  10,00 g  <br>
+                        Cloruro de Cobalto  0,10 g  <br>
+                        Cloruro de Potasio  0,01 g  <br>
+                        Fosfato de Sodio 1,00 g  <br>
+                        Cloruro de Manganeso  0,30 g <br> 
+                        Cloruro de Cobre  0,01 g  <br>
+                        Citrato de Hierro Amoniacal 0,02 g  <br>
+                        Vitamina D3.1.000 UI  <br>
+                        Excipientes c.s.p.  100,00 g<br><br>
+
+                        <b>Presentación:</b> Pote x 150 g; 1000 g y 5000 <br><br>
+
+                        <b>Indicaciones:</b> Vetervita Plus Cálcica es un corrector de estados carenciales, aportando los minerales requeridos
+                        durante la preñez, lactancia, crecimiento y en todo momento en que un animal sea sometido a esfuerzos. Facilita la hematopoyesis por su contenido, en hierro, cobre y cobalto. Su equilibrada fórmula se refleja en: aumento de la fertilidad, con mayor calidad y cantidad de leche. Los minerales indispensables en el desarrollo que aporta Vetervita Plus Cálcica  determinan un rápido crecimiento de animales jóvenes, previniéndolos de raquitismos y anemias.<br><br>
+
+                        <b>Dosis:</b> Dosis preventiva: Caninos y felinos: 0,5 g por kg p/v. Equinos: 20 a 30 g totales. Dosis Terapéutica: Duplicar dosis preventiva, salvo criterio del Médico Veterinario actuante. VIA ORAL . Especies a las que se destinan: Caninos, Felinos y Equinos.
+                      </div>
+
+                      <div class="filterDiv pequenos-animales">
+                        <h2>VETERVITA SHOCK ADE</h2>
+                        <hr style="width: 100%">
+                        Suplemento Vitamínico Mineral Inyectable<br><br>
+
+                        <b>Fórmula:</b><br>
+                        Vitamina A Palmitato 11.000.000 UI<br>
+                        Vitamina D2 (Calciferol) 3.000.000 UI<br>
+                        Vitamina E (DI Alfa Tocoferol) 2.200 UI<br>
+                        Excipientes c.s.p.  100 ml<br><br>
+
+                        <b>Presentación:</b> Frasco x 50 ml <br><br>
+
+                        <b>Indicaciones:</b> estados carenciales. Avitaminosis, desbalance en el metabolismo, calcio-fósforo. Degeneración muscular, transtornos en los epitelios.<br><br>
+
+                        <b>Dosis:</b> Bovinos y Equinos: 10 ml. Terneros, Potrillos, Ovinos, Caprinos y Porcinos: 5 ml. Caninos y Felinos: 1 a 2 ml. Repetir la dosis de acuerdo al criterio del Médico Veterinario. 
+                      </div>
 
                     </div>
 
