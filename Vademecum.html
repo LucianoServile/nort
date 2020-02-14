@@ -1,12 +1,70 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>Vademecum</title>
-    <link rel="stylesheet" type="text/css" href="Vademecum.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <!-- TITLE OF SITE -->
+    <title>Labortorios Nort</title>
+
+    <!-- META DATA -->
+    <meta name="description" content="Laboratorio nort" />
+    <meta name="keywords" content="veterinaria, laboratorio, nort" />
+    <meta name="author" content="Julieta Di Rizzo">
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- =========================
+      FAV AND TOUCH ICONS  
+    ============================== -->
+    <link rel="icon" href="images/logo-01.png">
+    <link rel="apple-touch-icon" href="images/logo-01.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logo-01.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/logo-01.png">
+
+
+    <!-- =========================
+       STYLESHEETS 
+    ============================== -->
+
+    <!-- PRELOADER -->
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" type="text/css" href="Vademecum.css">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- GOOGLE FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald:300,400,700%7CRaleway:100,200,300,400,500,600,700' rel='stylesheet'>
+
+    <!-- FONT ICONS CSS -->
+    <link rel="stylesheet" href="icons/styles.css">
+
+    <!-- OWL CAROUSEL CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.yellow.css">
+
+    <!-- NIVO LIGHTBOX -->
+    <link rel="stylesheet" href="css/nivo-lightbox/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo-lightbox/default.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- RESPONSIVE FIXES -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- SCRIPT -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="Vademecum.js"></script>
@@ -14,31 +72,52 @@
 </head>
 
 <body>
+    <!-- Pre Loader -->
+    <div class="pre-loader">
+        <div class="spinner"></div>
+    </div>
 
-    <!-- nav -->
-    <nav id="NavbarPrincipal" class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-                <a class="navbar-brand" href="Prueba.html"><img id="Logo" src="images/logo-01.png" alt="Logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="Empresa.html">Empresa</a></li>
-                    <li class="active"><a href="Vademecum.html">Vademecum</a></li>
-                    <li><a href="Eventos.html">Eventos</a></li>
-                    <li><a href="Noticias.html">Noticias</a></li>
-                    <li><a href="Distribuidores.html">Distribuidores</a></li>
-                    <li><a href="Contactos.html">Contactos</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- =========================
+     HOME 
+============================== -->
+    <div class="home" id="home">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-home navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#anima-navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
+                    <!-- TEMPLATE LOGO -->
+                    <a class="navbar-brand" href="#">NORT</a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="anima-navbar-collapse">
+                    <ul class="navbar-contact hidden-xs">
+                        <li class="mob"><a href="">(054-0237) 405-7725</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#home">Inicio<span class="sr-only">(current)</span></a></li>
+                        <li><a href="empresa.html">Empresa</a></li>
+                        <li><a href="vademecum.html">Vademecum</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                        <li><a href="distribuidores.html">Distribuidores</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    </div>
+
+
+    <!-- BODY -->
     <!-- Para volver normal: borrar lo que hay dentro del main-->
     <div id="container">
         <div id="main">
@@ -49,9 +128,9 @@
                     <div id="linea"></div>
                     <div class="col-md-8">
                         <span>Contamos con una línea muy extensa que abarca las necesidades tera
-					    peuticas tanto, del <b>mercado de Grandes como de Pequeños Animales</b>,
-					    con una fuerte inclinación al Equino Deportivo.
-				        </span>
+                        peuticas tanto, del <b>mercado de Grandes como de Pequeños Animales</b>,
+                        con una fuerte inclinación al Equino Deportivo.
+                        </span>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -65,8 +144,8 @@
                             <input type="text" class="form-control" placeholder="Ingrese el producto aqui*">
                             <div class="input-group-btn">
                                 <button class="btn btn-default" type="submit">
-        				            BUSCAR
-        				        </button>
+                                    BUSCAR
+                                </button>
                             </div>
                         </div>
                     </form>
@@ -124,10 +203,10 @@
                         <div id="myBtnContainer">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"><b>GRANDES ANIMALES</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"><b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div> 
                         </div>
@@ -146,10 +225,10 @@
                         <div id="myBtnContainer">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white;"><b>GRANDES ANIMALES</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"><b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div> 
                         </div>
@@ -166,8 +245,7 @@
                                 </div>
                             </div>
                             <hr style="width: 75%">
-                            <p>
-                                Antibiótico Inyectable
+                                                    Antibiótico Inyectable
                                 <br>
                                 <b>Frasco N° 1 - Polvo Estéril</b>
                                 <br>
@@ -192,7 +270,7 @@
                                 <b>Dosis y administración:</b> 0,32 a 0,64 ml cada 10 Kpv en todas las especies. Puede repetirse la dosis a las 48 hs. o según indicación del Méd. Veterana,.Vía intramuscular profunda Una vez preparada la solución conserva su actividad terapéutica durante 96 lis. si se mantiene en la heladera.
                                 <br><br>
                                 <b>Restricciones de uso:</b> En animales alérgicos a estos fármacos No utilizar en vacas lecheras en producción.
-                            </p>
+                            
                     </div>
 
                     <div class="filterDiv grandes-animales-antibio">
@@ -298,10 +376,10 @@
                           <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>GRANDES ANIMALES</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div>
                          
@@ -314,10 +392,10 @@
                         <div id="myBtnContainer">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>GRANDES ANIMALES</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div> 
                         </div>
@@ -541,7 +619,7 @@
                     <div class="filterDiv anabolicos">
                         <div class="row">
                               <div class="col-md-12">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div>
                     </div>
@@ -550,7 +628,7 @@
                         <div id="myBtnContainer">
                           <div class="row">
                               <div class="col-md-12">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-anabol')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div> 
                         </div>
@@ -650,10 +728,10 @@
                       <div class="filterDiv especificos">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('equinos-especifi') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
+                              <button class="btn" onclick="filterSelection('equinos-especifi') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>EQUINOS</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div>
                       </div>
@@ -670,10 +748,10 @@
                        <div class="filterDiv equinos-especifi">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('equinos-especifi') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
+                              <button class="btn" onclick="filterSelection('equinos-especifi') " style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>EQUINOS</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div>
                       </div>
@@ -1658,10 +1736,10 @@
                       <div class="filterDiv pequenos-animales-antibio">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('grandes-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              <button class="btn" onclick="filterSelection('grandes-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"><b>GRANDES ANIMALES</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antibio')" style="border-radius: 0px; width: 100%; background-color: black; color: white"><b>PEQUEÑOS ANIMALES</b></button>
                               </div>
                           </div>
                       </div>
@@ -1913,10 +1991,10 @@
                           <!--<button class="btn active" onclick="filterSelection('all')"> Show all</button>-->
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>GRANDES ANIMALES</b></p></button>
+                              <button class="btn" onclick="filterSelection('grandes-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"><b>GRANDES ANIMALES</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-antiparasi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div>
                          
@@ -2110,10 +2188,10 @@
                         <div id="myBtnContainer">
                           <div class="row">
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('equinos-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>EQUINOS</b></p></button>
+                              <button class="btn" onclick="filterSelection('equinos-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>EQUINOS</b></button>
                               </div>
                               <div class="col-md-6">
-                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <p><b>PEQUEÑOS ANIMALES </b></p></button>
+                              <button class="btn" onclick="filterSelection('pequenos-animales-especifi')" style="border-radius: 0px; width: 100%; background-color: black; color: white"> <b>PEQUEÑOS ANIMALES </b></button>
                               </div>
                           </div> 
                         </div>
@@ -2335,28 +2413,245 @@
                       </div>
 
                     </div>
-
             </div>
         </div>
     </div>
-        <footer id="footer">
-            <div class="container-fluid text-center">
-                <div class="row content">
-                    <div class="col-sm-2">
-                        <img id="LogoFooter" src="images/logo-01.png" alt="Logo">
+
+
+    <!-- =========================
+     FOOTER 
+============================== -->
+    <footer class="footer">
+
+
+        <section class="footer-body">
+            <div class="container">
+                <div class="row">
+                    <div class="row-item col-md-6 col-sm-12 col-md-offset-0 col-sm-offset-2">
+                        <h4 class="title-text">Nosotros</h4>
+                        <p>Laboratorios Norlisvet - Comercializa: Norlisvet S.A.. Bvar.<br>Pte. Perón y Del Cañon (B1744) - Moreno - C.C. 322 - <br>Provincia de Buenos Aires - República Argentina</p>
+                        <p> 0800-122-6333 | 0810-888-6678 <br> E-mail: info@laboratoriosnort.com.ar <br> Buenos Aires - República Argentina</p>
+
                     </div>
-                    <div class="col-sm-3 text-left">
-                        <p style="color: white">Laboratorios Nort - Comercializa: DIVET S.A. Bvar. Pte. Perón y Del Cañon (B1744) - Moreno - C.C. 322 - Provincia de Buenos Aires - República Argentina</p>
+
+                    <div class="row-item col-md-6 col-sm-12 col-md-offset-0 col-sm-offset-2">
+                        <h4 class="title-text">Newsletter</h4>
+                        <p>Dejanos tu mail para enviarte nuestras novedades.</p>
+
+                        <form id="subscribe" role="form" class="subscribe">
+                            <div class="input-group">
+                                <label for="subscribe-email" class="sr-only">Tu mail aquí</label>
+                                <input type="email" name="subscribe-email" id="subscribe-email" class="form-control" placeholder="Tu mail aquí">
+                                <button class="btn submit-btn">Enviar</button>
+                            </div>
+
+                            <p class="success-msg">You are successfully subscribed!</p>
+                            <p class="error-msg">Error! Something went wrong!</p>
+                        </form>
+
                     </div>
-                    <div class="col-sm-2"></div>
-                    <div class="col-sm-4 text-left">
-                        <p style="color: white">Líneas Rotativas Tel. (054-0237) 463-8964/7046 | Tel. Fax: (054-0237) 405-7725 al 7730 0800-122-6333 | 0810-888-6678 | E-mail: info@laboratoriosnort.com.ar Buenos Aires - República Argentina</p>
-                    </div>
-                    <div class="col-sm-2"></div>
+
+
                 </div>
             </div>
-        </footer>
+        </section>
+        <!-- /.footer-body -->
 
+    </footer>
+
+
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/jquery.localScroll.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/jflickrfeed.min.js"></script>
+    <script src="js/matchMedia.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+
+
+    <!-- GOOGLE MAP API -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpsa0dCe3KnM6wYXmIYPPhvrzWcNVJcxI&amp;sensor=true"></script>
+
+    <script type="text/javascript">
+        // When the window has finished loading create our google map below
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+        function initialize() {
+            "use strict";
+            // Basic options for a simple Google Map
+            // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+            var mapOptions = {
+                // How zoomed in you want the map to start at (always required)
+                zoom: 11,
+                scrollwheel: false,
+
+                // The latitude and longitude to center the map (always required)
+                center: new google.maps.LatLng(-34.6618112, -58.8060008), // New York
+
+                // How you would like to style the map. 
+                // This is where you would paste any style found on Snazzy Maps.
+                styles: [{
+                    "stylers": [{
+                        "color": "#e5b563"
+                    }, {
+                        "saturation": "36"
+                    }, {
+                        "lightness": "-21"
+                    }, {
+                        "gamma": "2.03"
+                    }, {
+                        "weight": "0.90"
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                        "saturation": "-12"
+                    }, {
+                        "visibility": "on"
+                    }, {
+                        "color": "#e4b72f"
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "saturation": "5"
+                    }, {
+                        "lightness": "-16"
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                        "gamma": 0.01
+                    }, {
+                        "lightness": 20
+                    }, {
+                        "saturation": "-100"
+                    }, {
+                        "visibility": "on"
+                    }, {
+                        "hue": "#ff0000"
+                    }, {
+                        "weight": "0.01"
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "labels.text.stroke",
+                    "stylers": [{
+                        "saturation": -31
+                    }, {
+                        "lightness": -33
+                    }, {
+                        "weight": 2
+                    }, {
+                        "gamma": 0.8
+                    }, {
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "all",
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                }, {
+                    "featureType": "administrative.country",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "saturation": "7"
+                    }, {
+                        "lightness": "2"
+                    }]
+                }, {
+                    "featureType": "administrative.country",
+                    "elementType": "labels.text",
+                    "stylers": [{
+                        "visibility": "on"
+                    }]
+                }, {
+                    "featureType": "landscape",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "lightness": 30
+                    }, {
+                        "saturation": 30
+                    }]
+                }, {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "saturation": 20
+                    }]
+                }, {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "lightness": 20
+                    }, {
+                        "saturation": -20
+                    }]
+                }, {
+                    "featureType": "road",
+                    "elementType": "geometry",
+                    "stylers": [{
+                        "lightness": 10
+                    }, {
+                        "saturation": -30
+                    }]
+                }, {
+                    "featureType": "road",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                        "saturation": 25
+                    }, {
+                        "lightness": 25
+                    }]
+                }, {
+                    "featureType": "water",
+                    "elementType": "all",
+                    "stylers": [{
+                        "lightness": -20
+                    }]
+                }]
+            };
+
+            // Get the HTML DOM element that will contain your map 
+            // We are using a div with id="map" seen below in the <body>
+            var mapElement = document.getElementById('map-block');
+
+            // Create the Google Map using our element and options defined above
+            var map = new google.maps.Map(mapElement, mapOptions);
+
+            // Let's also add a marker while we're at it
+            var marker = new google.maps.Marker({
+                position: new google.maps.LatLng(-34.6618112, -58.8060008),
+                map: map,
+                title: 'Anima!'
+            });
+        }
+
+        $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+            initialize();
+        });
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
