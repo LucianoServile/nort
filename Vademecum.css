@@ -54,6 +54,7 @@ html, body{
   margin-top: -15px;
 }
 
+
 #container{
 	min-height: 100%;
 	background-color: grey;
@@ -143,14 +144,11 @@ hr{
 
 /*PRODUCTOS*/
 
-.container {
+.containerFiltro {
   overflow: hidden;
-  margin-top: 20px;
-  padding: 20px;
 }
 
 .filterDiv {
-  float: left;
   background-color: orange;
   color: #ffffff;
   width: 100%;
@@ -159,7 +157,6 @@ hr{
   padding: 50px;
   display: none; /* Hidden by default */
   margin-top: 20px;
-
 }
 
 /* The "show" class is added to the filtered elements */
@@ -201,6 +198,12 @@ hr{
 	.col-md-12 b{
 		margin: 50px;
 		font-size: 30px;
+	}
+
+	#informacion{
+	}
+
+	#informacion h2{
 	}
 
 	#footer{
@@ -288,9 +291,18 @@ hr{
 	  	text-align: center;
 	  } 
 
+	  .containerFiltro{
+	  	margin-left: -30px; 
+	  	margin-right: -30px;
+	  }
+	  
 	  #myBtnContainer .row .col-xs-12 p{
 	  	font-size: 9px;
 	  	text-align: center;
+	  }
+
+	  .filterDiv{
+	  	width: 100%;
 	  }
 
 	  .filterDiv p{
@@ -300,6 +312,10 @@ hr{
 
 	  .filterDiv b{
 	  	text-align: center;
+	  }
+
+	  .btn{
+	  	width: 20%;
 	  }
 
 	  .btn p{
