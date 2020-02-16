@@ -250,6 +250,10 @@ hr{
 		background-color: black;
 	  }
 
+	  #Buscador img{
+	  	display: none;
+	  }
+
 	  #BuscadorTitle{
 		text-align: center;
 	  	padding-right: 50%;
@@ -259,8 +263,17 @@ hr{
 	 	font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
 	  }
 
+	  #Producto .row .col-12 h3 b{
+	  	font-size: 20px;
+	  	margin-left: 50px;
+	  }
+
 	  #ProductoTitle{
 		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	  }
+
+	  #ProductoYBuscador .col-md-6 h3 b{
+	  	font-size: 20px;
 	  }
 
 	  #ImagenProducto{
