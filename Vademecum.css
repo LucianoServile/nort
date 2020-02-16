@@ -275,11 +275,63 @@ hr{
 	  	text-align: center;
 	  } 
 
+	  #myBtnContainer .row .col-xs-12 p{
+	  	font-size: 9px;
+	  	text-align: center;
+	  }
+
+	  .filterDiv p{
+	  	text-align: left;
+	  	font-size: 12px;
+	  }
+
+	  .filterDiv b{
+	  	text-align: center;
+	  }
+
 	  .btn p{
 		font-size: 70px;
 		padding-top: 5px;
 	  }
 
+	  #row .col-md-5 h2{
+	  	font-size: 20px;
+	  	text-align: center;
+	  }
+
+	  .filterDiv h2{
+	  	font-size: 20px;
+	  	text-align: center;
+	  }
+
+	  #row .col-md-4 b{
+	  	font-size: 20px;
+	  	text-align: center;
+	  }
+
+	  #row .col-md-4 h2{
+	  	font-size: 20px;
+	  	text-align: center;
+	  }
+
+	  #row .col-md-6 h2{
+	  	font-size: 20px;
+	  	text-align: center;
+	  }
+
+	  #myBtnContainer .col-md-6 h2{
+	  	font-size: 20px;
+	  	background-color: red;
+	  }
+
+	  .col-xs-12 h2{
+	  	font-size: 20px;
+	  }
+
+	  .col-xs-12 h3{
+	  	font-size: 15px;
+	  	margin-bottom: -10px;
+	  }
 
 	  #footer{
 		padding-top: 20px; 
