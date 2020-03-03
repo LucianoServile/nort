@@ -248,7 +248,7 @@ hr{
 }
 
 #myDIV{
-	background-color: orange;
+	background-color: white;
 	height: 79px;
 	width: 100%;
 }
@@ -264,7 +264,7 @@ hr{
     padding-top: 20px;
     text-align: center;
     color: white;
-    background-color: orange;
+    background-color: white;
     border: none;
     height: 79px;
     float: left;
@@ -278,7 +278,7 @@ hr{
 
 .btnVacunasAG:hover{
 	opacity: 0.9;
-	background-color: white;
+	background-color: grey;
 }
 
 .btnVacunasAG.active{
@@ -428,7 +428,7 @@ hr{
     padding-top: 20px;
     text-align: center;
     color: white;
-    background-color: orange;
+    background-color: white;
     border: none;
     height: 79px;
     width: 100%;
@@ -459,7 +459,8 @@ hr{
   }
 }
 
-@media (max-width: 1199.98px) {
+/*iPad*/
+@media (min-width: 768px) and (max-width: 991.98px) {
 
 	#NavbarPrincipal{
 		margin-bottom: 0px; border-radius: 0px; 
@@ -500,6 +501,48 @@ hr{
   		padding: 20px;
   		width: 100%;
 	}
+
+	.image {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-bottom: 50px;
+  	}
+
+  .filterDiv{
+  	width: 100%;
+  }
+
+	.btnVacunasAG {
+	  	transition: all 0.3s;
+	    text-transform: uppercase;
+	    border-radius: 0;
+	    font-weight: 600;
+	    margin-bottom: 15px;
+	    color: #1e414e;
+	    padding: 10px;
+	    padding-top: 20px;
+	    text-align: center;
+	    color: white;
+	    background-color: white;
+	    border: none;
+	    height: 79px;
+	    float: left;
+	    
+	}
+
+ 	#infoImg{
+	  	width: 50%;
+	  	height: 50%;
+	  	margin-bottom: 20px;
+	  	display: none;
+  	}
+
+  	.bgInfo{
+	  	margin-top: 95px;
+	  	height: 100%;
+	  	margin-bottom: -100px;
+  	}
 
 
 
@@ -565,7 +608,7 @@ hr{
     }
 
   .filterDiv{
-  	width: 90%;
+  	width: 100%;
   }
 
   .btnVacunasAG {
@@ -579,9 +622,10 @@ hr{
     padding-top: 20px;
     text-align: center;
     color: white;
-    background-color: orange;
+    background-color: white;
     border: none;
     height: 79px;
+    font-size: 10px;
   }
 
   col-xs-12 .btn{
@@ -592,16 +636,112 @@ hr{
   #infoImg{
   	width: 250px;
   	height: 250px;
+  	display: none;
   }
 
   .bgInfo{
-  	margin-top: 94px;
   	height: 900px;
   	margin-bottom: -100px;
   }
- 
 
-  
+
+	#footer{
+	padding-top: 20px; 
+	background-color: #151515;
+	position: relative;
+	height: auto;
+	margin-top: -100px;
+	clear: both; 
+	padding-right: 0;
+	padding-left: 0;
+	}
+}
+
+/*LAPTOP*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	#NavbarPrincipal{
+	margin-bottom: 0px; border-radius: 0px; 
+	padding-right: 0;
+	padding-left: 0;
+	}
+
+	#main{
+	  	overflow: hidden;
+		padding-bottom: 100px;
+		margin-left: 0;
+	  	margin-right: 0;
+    }
+
+	#ImagenProducto{
+  		margin-top: 10px;
+		width: 100%;
+		height: auto;
+  	}
+
+  	.image{
+  		height: 400px;
+  	}
+
+  	#EmpresaTitle{
+		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	}
+
+	#ProductoTitle{
+		font-size: 30px; text-align: left; background-color: black; padding: 10px; padding-left: 40px; color: white; width: 100%;
+	}
+
+	.image {
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-bottom: 50px;
+    }
+
+    #Producto h3{
+    	margin-left: 50px;
+    }
+
+    #linea{
+    	width: 20px;
+    }
+
+  .filterDiv{
+  	width: 100%;
+  }
+
+  .btnVacunasAG {
+  	transition: all 0.3s;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #1e414e;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: white;
+    border: none;
+    height: 79px;
+    font-size: 10px;
+  }
+
+  col-xs-12 .btn{
+  	font-size: 12px;
+  	color: red;
+  }
+
+  #infoImg{
+  	width: 250px;
+  	height: 250px;
+  	display: none;
+  }
+
+  .bgInfo{
+  	height: 900px;
+  	margin-bottom: -100px;
+  }
+
 
 	#footer{
 	padding-top: 20px; 
