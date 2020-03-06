@@ -1,7 +1,9 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
+    <title>Contactos</title>
+    <link rel="stylesheet" type="text/css" href="css/contactos.css">
     <meta charset="utf-8">
 
     <!-- TITLE OF SITE -->
@@ -19,10 +21,11 @@
     <!-- =========================
       FAV AND TOUCH ICONS  
     ============================== -->
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="icon" href="images/logo-01.png">
+    <link rel="apple-touch-icon" href="images/logo-01.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/logo-01.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/logo-01.png">
+
 
     <!-- =========================
        STYLESHEETS 
@@ -55,15 +58,10 @@
 
     <!-- RESPONSIVE FIXES -->
     <link rel="stylesheet" href="css/responsive.css">
-
-    <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <script src="js/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 
 <body>
+
     <!-- Pre Loader -->
     <div class="pre-loader">
         <div class="spinner"></div>
@@ -74,18 +72,18 @@
 ============================== -->
     <div class="home" id="home">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-home navbar-fixed-top" role="navigation">
+        <nav class="navbar navbar-home navbar-fixed-top" role="navigation" style="background-color: #CCCCCC">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#anima-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
                     <!-- TEMPLATE LOGO -->
-                    <a class="navbar-brand" href="#">NORT</a>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo-01.png" id="logoBrand"></a>
                 </div>
 
                 <div class="collapse navbar-collapse" id="anima-navbar-collapse">
@@ -94,143 +92,193 @@
                     </ul>
 
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="#home">Inicio<span class="sr-only">(current)</span></a></li>
+                        <li><a href="index.html">Inicio<span class="sr-only">(current)</span></a></li>
                         <li><a href="empresa.html">Empresa</a></li>
                         <li><a href="vademecum.html">Vademecum</a></li>
-                        <li><a href="eventos.html">Eventos</a></li>
-                        <li><a href="noticias.html">Noticias</a></li>
                         <li><a href="distribuidores.html">Distribuidores</a></li>
-                        <li><a href="contacto.html">Contacto</a></li>
+                        <li class="active"><a href="contacto.html">Contacto</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <!-- CAROUSEL -->
-        <div class="owl-carousel">
-            <div class="item slider">
-                <img src="images/imagen-encabezado-1-01.jpg" alt="Cat">
+    
 
-                <div class="slider-content">
-                    <div class="container">
-                        <h1 class="title-text">Mas de 60 años elaborando productos veterinarios</h1>
+    <!-- Para volver normal: borrar lo que hay dentro del main-->
+    <div id="container">
+        <div id="main">
+            <div class="row">
+            </div>
+            <div class="row" id="Dondeestamos">
+                <div class="col-md-3">
+                    <h4><b>DONDE ESTAMOS</b></h4>
+                    <div id="linea"></div>
+                    <div class="row" style="margin-top: 20px;">
+                        <div class="col-md-3"><img src="images/iconos-dibujos-03.png" id="UbiImg"></div>
+                        <div class="col-md-7"><b>Nuestra planta</b>
+                            <p>Bvar. Pte. Perón y Del Cañon Moreno - C.C. 322 Buenos Aires Argentina
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <!-- /.slider-content -->
+                <div class="col-md-9">
+                    <!-- Google Maps -->
+
+                    <div class="address-map" role="tabpanel">
+
+                        <div class="tab-content">
+
+
+                            <div class="map-block tab-pane fade in active" id="map-block" role="tabpanel">
+
+                            </div>
+                            <!-- /.address-block -->
+                        </div>
+                        <!-- /.tab-content -->
+                    </div>
+
+                </div>
             </div>
+            <div class="row" id="Contactanos">
+                <div class="col-md-6">
+                    <h4><b>CONTACTANOS</b></h4>
+                    <div id="linea"></div>
+                    <div class="row" style="margin-top: 20px">
+                        <div class="col-md-2">
+                            <img id="emailImg" src="images/iconos-dibujos-07.png">
+                        </div>
+                        <div class="col-md-6">
+                            <span><b>Nuestros mail</b></span>
+                            <span>info@laboratoriosnort.com.ar</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <img id="telefonoImg" src="images/iconos-dibujos-01.png">
+                        </div>
+                        <div class="col-md-6">
+                            <span><b>Nuestros números de teléfono.</b></span>
+                            <p><span>(054-0237) 463-8964/7046</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            <span>Tel. Fax</span>
+                            <p>(054-0237) 405-7725</p>
+                            <p>al 7730 0800-122-6333</p>
+                            <br>
+                            <p>0810-888-6678</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="horario" class="col-md-10">
+                            <hr style="width: 100%">
+                            <div style="margin-top: -10px; margin-bottom: -10px">
+                                <p><b>Horarios de Atención al público</b></p>
+                                <p style="margin-top: -5px;">Lunes a viernes de 8 17 hs</p>
+                            </div>
+                            <hr style="width: 100%">
+                        </div>
+                    </div>
 
-            <div class="item slider">
-                <img src="images/carousel/dog-1.jpg" alt="Dog">
-
-                <div class="slider-content">
-                    <div class="container">
-                        <h1 class="title-text">Adopt pet and help them</h1>
-                        <ul>
-                            <li>Adopt</li>
-                            <li>Care</li>
-                            <li>Love</li>
-                        </ul>
-                        <a href="#" class="btn btn-base btn-xlg">Donate Now</a>
+                </div>
+                <div class="col-md-6" style="background-color: orange; padding: 50px;">
+                    <div class="row">
+                        <p id="Dudas">¿Dudas, comentarios? Déjenos su mensaje que nos comunicaremos a la brevedad.</p>
+                    </div>
+                    <div class="row" id="formulario">
+                        <form id="Buscador">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            <img src="images/iconos-dibujos-02.png">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Nombre*">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            <img src="images/iconos-dibujos-04.png">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="E-Mail*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            <img src="images/iconos-dibujos-01.png">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Telefono*">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Empresa*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            <img src="images/iconos-dibujos-03.png">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Ciudad*">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div>
+                                        <input type="text" class="form-control" placeholder="Pais*">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="input-group">
+                                        <div class="input-group-btn">
+                                            <img src="images/iconos-dibujos-07.png" style="height: 100px; padding-bottom: 70px;">
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Mensaje*" style="height: 100px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <button><b>ENVIAR</b></button>
+                        </form>
                     </div>
                 </div>
-                <!-- /.slider-content -->
             </div>
 
-            <div class="item slider">
-                <img src="images/carousel/cat-2.jpg" alt="Cat">
-
-                <div class="slider-content">
-                    <div class="container">
-                        <h1 class="title-text">Pet is your friend</h1>
-                        <ul>
-                            <li>Adopt</li>
-                            <li>Care</li>
-                            <li>Love</li>
-                        </ul>
-                        <a href="#" class="btn btn-base btn-xlg">Donate Now</a>
-                    </div>
-                </div>
-                <!-- /.slider-content -->
-            </div>
         </div>
     </div>
 
-
-
     <!-- =========================
-     ABOUT 
-============================== -->
-    <div class="about full-width" id="about">
-        <div class="fwd-row base-content">
-            <div class="col_1_4">
-                <img src="images/animal-thumbs/dog-1.jpg" alt="Dog 1" class="img-responsive">
-            </div>
-
-            <div class="col_5_4">
-                <article>
-
-                    <h4 class="title-text">La empresa</h4>
-                    <hr class="white-line">
-                    <p>El laboratorio en ese momento trato de cubrir ambas necesidades dotando a los Colegas Especialistas en Equinos de una herramienta tan importante como son los Análisis Clínicos por un lado y a la vez desarrollando una Línea Exclusiva
-                        para Equinos cubriendo de esta forma todas las falencias que había en esos momentos, en los tratamientos para el Equino Deportivo. <br>Este laboratorio fue creado hace más de 60 años debido a que en ese momento su fundador, el
-                        Prof. Dr. Fabio Damonte, que era Titular de la Cátedra de Clínica de Grandes Animales y tenia a su cargo el Hospital de Grandes Animales, observo que no había laboratorios nacionales que se dedicaran a Equinos específicamente y
-                        tampoco era fácil realizar Análisis Clínicos.
-                    </p>
-                </article>
-            </div>
-        </div>
-
-
-    </div>
-    </div>
-
-
-
-    <!-- =========================
-     ADDRESS  -MAP
-============================== -->
-    <div class="gay-bg about full-width" id="about">
-        <div class="fwd-row base-content">
-            <div class=" col_2_4">
-                <img src="images/animal-thumbs/dog-1.jpg" alt="Dog 1" class="img-responsive">
-            </div>
-            <div class="col_2_4">
-                <article>
-
-                    <h4 class="title-text">La empresa</h4>
-                    <hr class="white-line">
-                    <p>El laboratorio en ese momento trato de cubrir ambas necesidades dotando a los Colegas Especialistas en Equinos de una herramienta tan importante como son los Análisis Clínicos por un lado y a la vez desarrollando una Línea Exclusiva
-                        para Equinos cubriendo de esta forma todas las falencias que había en esos momentos, en los tratamientos para el Equino Deportivo. <br>Este laboratorio fue creado hace más de 60 años debido a que en ese momento su fundador, el
-                        Prof. Dr. Fabio Damonte, que era Titular de la Cátedra de Clínica de Grandes Animales y tenia a su cargo el Hospital de Grandes Animales, observo que no había laboratorios nacionales que se dedicaran a Equinos específicamente y
-                        tampoco era fácil realizar Análisis Clínicos.
-                    </p>
-                </article>
-            </div>
-        </div>
-
-
-
-    </div>
-
-
-
-    <!-- =========================
-     FOOTER 
-============================== -->
+                     FOOTER 
+                ============================== -->
     <footer class="footer">
 
 
         <section class="footer-body">
             <div class="container">
                 <div class="row">
-                    <div class="row-item col-md-6 col-sm-12 col-md-offset-0 col-sm-offset-2">
+                    <div class="row-item col-md-2 col-sm-12 col-md-offset-0 col-sm-offset-2">
+                        <img src="images/logo-01.png" alt="3D Ocean" style=" max-width:250px;
+                                            max-height:100px;">
+                    </div>
+
+
+                    <div class="row-item col-md-5 col-sm-12 col-md-offset-0 col-sm-offset-2">
                         <h4 class="title-text">Nosotros</h4>
                         <p>Laboratorios Norlisvet - Comercializa: Norlisvet S.A.. Bvar.<br>Pte. Perón y Del Cañon (B1744) - Moreno - C.C. 322 - <br>Provincia de Buenos Aires - República Argentina</p>
                         <p> 0800-122-6333 | 0810-888-6678 <br> E-mail: info@laboratoriosnort.com.ar <br> Buenos Aires - República Argentina</p>
 
                     </div>
 
-                    <div class="row-item col-md-6 col-sm-12 col-md-offset-0 col-sm-offset-2">
+                    <div class="row-item col-md-5 col-sm-12 col-md-offset-0 col-sm-offset-2">
                         <h4 class="title-text">Newsletter</h4>
                         <p>Dejanos tu mail para enviarte nuestras novedades.</p>
 
@@ -238,7 +286,7 @@
                             <div class="input-group">
                                 <label for="subscribe-email" class="sr-only">Tu mail aquí</label>
                                 <input type="email" name="subscribe-email" id="subscribe-email" class="form-control" placeholder="Tu mail aquí">
-                                <button class="btn submit-btn">Enviar</button>
+                                <button class="btn submit-btn" style="margin-top: 10px;">Enviar</button>
                             </div>
 
                             <p class="success-msg">You are successfully subscribed!</p>
@@ -448,6 +496,8 @@
     <script>
         new WOW().init();
     </script>
+
+    
 
 </body>
 
