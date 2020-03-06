@@ -200,6 +200,7 @@ iframe {
 .full-width .img-responsive {
     width: 100%;
     object-fit: cover;
+    height: 500px;
 }
 
 .col_4_4 {
@@ -247,7 +248,7 @@ hr {
 }
 
 hr.white-line {
-    border-color: #fff;
+    border-color: black;
 }
 
 hr.full-width-hr {
@@ -694,7 +695,7 @@ article .title-text {
     }
     .navbar-home .navbar-contact li.mob a,
     .navbar-home .navbar-contact li.email a {
-        color: #a1c4d3;
+        color: black;
     }
     .navbar-home .navbar-nav {
         margin-top: 15px;
@@ -708,11 +709,12 @@ article .title-text {
         padding-right: 20px;
     }
     .navbar-home .navbar-nav>li>a:hover {
-        color: #f6e25d;
+        color: black;
     }
     .navbar-home .navbar-nav .nav-donate {
         display: none;
     }
+
 }
 
 
@@ -725,10 +727,15 @@ article .title-text {
     margin-bottom: 0;
 }
 
+#logoBrand{
+    width: 50px; 
+    height: 50px; 
+    margin-top: -20px;
+}
+
 .navbar-brand {
     height: 100px;
     padding-top: 50px;
-    background: #f6e25d;
     text-transform: uppercase;
     font-family: Oswald, sans-serif;
     font-size: 40px;
@@ -824,6 +831,8 @@ article .title-text {
     width: 20px;
     height: 3px;
     background: #f6e25d;
+    margin-top: -7px;
+    margin-bottom: 10px;
 }
 
 .navbar-nav>li a:hover,
@@ -856,6 +865,13 @@ article .title-text {
 }
 
 @media screen and (min-width: 768px) {
+
+    #logoBrand{
+        width: 100px; 
+        height: 100px; 
+        margin-top: -45px;
+    }   
+
     .navbar-nav li:hover>ul {
         visibility: visible;
         overflow: visible;
@@ -1151,6 +1167,9 @@ article .title-text {
     .pet-profile .individual-pet:hover .yellow-line {
         border-color: #fff;
     }
+    .black-line {
+        border-color: black;
+    }
     .pet-profile .individual-pet:hover .profile {
         z-index: 1;
         left: 100%;
@@ -1172,6 +1191,7 @@ article .title-text {
     .pet-profile .individual-pet.last:hover .profile {
         left: -112%;
     }
+
 }
 
 
@@ -1254,6 +1274,7 @@ article .title-text {
     .event-timing h6 {
         font-size: 2em;
     }
+
 }
 
 
@@ -1291,6 +1312,7 @@ article .title-text {
     .adopt-pets .text-right {
         text-align: center;
     }
+
 }
 
 
@@ -1401,13 +1423,15 @@ article .title-text {
     font-weight: 500;
 }
 
+
+/*
 .blockquote blockquote:before {
     font-family: "anima-icon";
     left: 20px;
     top: 30px;
     position: absolute;
     content: "\e156";
-}
+}*/
 
 .blockquote hr {
     margin: 3px 0 6px;
@@ -1826,6 +1850,15 @@ article .title-text {
     width: 100%;
 }
 
+.address-map .container .row .map{
+    background-color: #DEA319;
+    text-align: left;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+
+
 
 /*
 |----------------------------------------------------------------------------
@@ -1902,8 +1935,8 @@ article .title-text {
     width: 30%;
     border: 0;
     outline: none;
-    color: #fff;
-    background: #4ca6c7;
+    color: black;
+    background: #DEA319;
     height: 40px;
 }
 
@@ -2039,6 +2072,7 @@ article .title-text {
         float: right;
         margin-top: 100px;
     }
+
 }
 
 

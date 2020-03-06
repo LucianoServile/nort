@@ -1,0 +1,362 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+	
+
+	li{
+		list-style-type: none
+	}
+
+	h5{
+		color: black;
+	}
+
+	h4{
+		color: black;
+	}
+
+	#linea{
+		height: 5px; 
+		width: 20px; 
+		background-color: black;
+	}
+
+
+	#main{
+	    overflow-x: hidden;
+	}
+
+
+	#Distribuidores {
+		background-color: white;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.col-md-6 p{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+
+	#Representantes {
+		background-color: #DEA319;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#Representantes .col-md-4 img{
+		width: 30px; height: 30px
+	}
+
+	#Representantes .col-md-6 img{
+		width: 30px; height: 30px
+	}
+
+	#Representantes .row .col-md-4 ul{
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+
+	#Representantes .col-md-4 li{
+		font-size: 15px;
+	}
+
+	#argentina{
+		height: 250px;
+		margin: 0;
+		margin-left: 60px;
+		margin-bottom: 50px;
+		width: 50%;
+
+	}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+	li{
+		list-style-type: none
+	}
+
+	h5{
+		color: black;
+	}
+
+	h4{
+		color: black;
+	}
+
+	#linea{
+		height: 5px; 
+		width: 20px; 
+		background-color: black;
+	}
+
+	#main{
+	    overflow-x: hidden;
+	}
+
+
+	#Distribuidores {
+		background-color: white;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.col-md-6 p{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+
+	#Representantes {
+		background-color: #DEA319;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#Representantes .col-md-4 img{
+		width: 30px; height: 30px
+	}
+
+	#Representantes .col-md-6 img{
+		width: 30px; height: 30px
+	}
+
+
+	#Representantes .col-md-4 li{
+		font-size: 15px;
+	}
+
+	#Representantes .row .col-md-4 ul{
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	#argentina{
+		width: 50%;
+		margin: 0;
+		height: auto;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	
+
+	li{
+		list-style-type: none
+	}
+
+	h5{
+		color: black;
+	}
+
+	h4{
+		color: black;
+	}
+
+	#linea{
+		height: 5px; 
+		width: 20px; 
+		background-color: black;
+	}
+
+	#main{
+	    overflow-x: hidden;
+	}
+
+
+	#Distribuidores {
+		background-color: white;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.col-md-6 p{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+
+	#Representantes {
+		background-color: #DEA319;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#Representantes .col-md-4 img{
+		width: 30px; height: 30px
+	}
+
+	#Representantes .col-md-6 img{
+		width: 30px; height: 30px
+	}
+
+
+	#Representantes .col-md-4 li{
+		font-size: 15px;
+	}
+
+	#Representantes .row .col-md-4 ul{
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	#argentina{
+		display: none;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+	li{
+		list-style-type: none
+	}
+
+	h5{
+		color: black;
+	}
+
+	h4{
+		color: black;
+	}
+
+	#linea{
+		height: 5px; 
+		width: 20px; 
+		background-color: black;
+	}
+
+	#main{
+	    overflow-x: hidden;
+	}
+
+
+	#Distribuidores {
+		background-color: white;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.col-md-6 p{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+
+	#Representantes {
+		background-color: #DEA319;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#Representantes .col-md-4 img{
+		width: 30px; height: 30px
+	}
+
+	#Representantes .col-md-6 img{
+		width: 30px; height: 30px
+	}
+
+
+	#Representantes .col-md-4 li{
+		font-size: 15px;
+	}
+
+	#Representantes .row .col-md-4 ul{
+		margin-top: 10px;
+		margin-bottom: 50px;
+	}
+
+	#argentina{
+		width: 100%;
+		margin: 0;
+		height: auto;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	
+
+	li{
+		list-style-type: none
+	}
+
+	h5{
+		color: black;
+	}
+
+	h4{
+		color: black;
+	}
+
+	#linea{
+		height: 5px; 
+		width: 20px; 
+		background-color: black;
+	}
+
+	#main{
+	    overflow-x: hidden;
+	}
+
+
+	#Distribuidores {
+		background-color: white;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	.col-md-6 p{
+		margin-top: 20px;
+		font-size: 15px;
+	}
+
+	#Representantes {
+		background-color: #DEA319;
+		padding: 50px;
+		margin-top: -10px; 
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+
+	#Representantes .col-md-4 img{
+		width: 30px; height: 30px
+	}
+
+	#Representantes .col-md-6 img{
+		width: 30px; height: 30px
+	}
+
+
+	#Representantes .col-md-4 li{
+		font-size: 15px;
+	}
+
+	#argentina{
+		width: 100%;
+	}
+	
+}
